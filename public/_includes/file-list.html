@@ -1,0 +1,29 @@
+<style>
+  .file-list {
+    padding: 0;
+    list-style: none;
+  }
+  .file-list li {
+    border: 1px solid #eee;
+    padding: 0.5em;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .file-list li:hover {
+    background: #f0f0f0;
+  }
+  .file-list li time {
+    color: #666;
+  }
+</style>
+
+<ul class="file-list">
+  {% for file in files %}
+    <li>
+      <a href="{{ file.path }}">{{ file.path }}</a>
+      <time datetime="{{ file.modified_time | date_to_xmlschema }}">{{ file.modified_time }}</time>
+    </li>
+  {% endfor %}
+</ul>
