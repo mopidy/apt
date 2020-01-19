@@ -1,0 +1,6 @@
+---
+title: /dists/
+---
+
+{% assign files = site.static_files | where: "dists", true %}
+{% include file-list.html %}

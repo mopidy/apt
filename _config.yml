@@ -1,1 +1,16 @@
 source: public
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+  - scope:
+      path: "pool"
+    values:
+      pool: true
+  - scope:
+      path: "dists"
+    values:
+      dists: true

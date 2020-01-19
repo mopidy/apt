@@ -1,0 +1,6 @@
+---
+title: /pool/
+---
+
+{% assign files = site.static_files | where: "pool", true %}
+{% include file-list.html %}

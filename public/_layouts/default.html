@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+  <style>
+    body {
+      font-family: monospace;
+    }
+    a {
+      text-decoration: none;
+    }
+
+    .container {
+      margin: 2rem auto;
+      max-width: 80em;
+    }
+
+    footer {
+      margin-top: 2rem;
+
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+    }
+    footer a {
+      padding: 1em;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>{{ page.title }}</h1>
+
+  {{ content }}
+
+  <footer>
+    <a href="/dists/">/dists/</a>
+    <a href="/pool/">/pool/</a>
+  </footer>
+</div>
+
+</body>
+</html>
