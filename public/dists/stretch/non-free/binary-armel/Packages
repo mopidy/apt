@@ -1,0 +1,39 @@
+Package: libspotify-dev
+Source: libspotify
+Version: 12.1.51-1armel1
+Architecture: armel
+Maintainer: Stein Magnus Jodal <stein.magnus@jodal.no>
+Installed-Size: 1642
+Depends: libspotify12 (= 12.1.51-1armel1)
+Homepage: http://developer.spotify.com/en/libspotify/
+Priority: extra
+Section: libdevel
+Filename: pool/non-free/libs/libspotify/libspotify-dev_12.1.51-1armel1_armel.deb
+Size: 462736
+SHA256: 78bc165c53dd0a9389a35dc68e364b93410d795c16acc502d4c04ad67603fa13
+SHA1: 211fa90f2172f88f397ebec9c4852ce601dba31d
+MD5sum: e4076931b96dd74add45d59a562966c8
+Description: Library for using the Spotify music streaming service
+ This development package provides the header files and the symbolic links to
+ allow compilation and linking of programs that use the libraries provided in
+ the libspotify12 package.
+
+Package: libspotify12
+Source: libspotify
+Version: 12.1.51-1armel1
+Architecture: armel
+Maintainer: Stein Magnus Jodal <stein.magnus@jodal.no>
+Installed-Size: 2467
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.4.0)
+Homepage: http://developer.spotify.com/en/libspotify/
+Priority: extra
+Section: libs
+Filename: pool/non-free/libs/libspotify/libspotify12_12.1.51-1armel1_armel.deb
+Size: 1144434
+SHA256: 0b7988a93add60c38f85c1853e65278db10d194d75d5f44961935ffdbbada0ef
+SHA1: 32ecc8bd4008118cefda7ffb05e8ff227aa70d01
+MD5sum: 0018171320d348b65b326c13099ff25f
+Description: Library for using the Spotify music streaming service
+ The libspotify C API package allows third party developers to write
+ applications that utilize the Spotify music streaming service.
+
