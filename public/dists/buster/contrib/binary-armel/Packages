@@ -1,0 +1,125 @@
+Package: mopidy-spotify
+Version: 4.0.1-0mopidy1
+Architecture: all
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 115
+Depends: mopidy (>= 3.0.0), python3-pkg-resources, python3-pykka, python3-requests, python3-spotify (>= 2.0.5), python3:any
+Homepage: https://github.com/mopidy/mopidy-spotify
+Priority: optional
+Section: sound
+Filename: pool/contrib/m/mopidy-spotify/mopidy-spotify_4.0.1-0mopidy1_all.deb
+Size: 29244
+SHA256: 3d56c69fc21cf85c8d6f65f903f3cf92f71cbca63b6f4c7efba8d0bf0c454e03
+SHA1: ea098d09b90aa63c4ae4a54685334947de0c033b
+MD5sum: 3c7de4f5a88611fcb9c92de30649a124
+Description: Mopidy extension for playing music from Spotify
+ Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
+ and more. You can edit the playlist from any phone, tablet, or computer using
+ a variety of MPD and web clients.
+ .
+ This package provides a Mopidy extension for playing music from the Spotify
+ music streaming service. A Spotify Premium subscription is required to make
+ use of this package.
+
+Package: python-spotify
+Version: 2.1.3-0mopidy1
+Architecture: armel
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 596
+Depends: libspotify12, python (<< 2.8), python (>= 2.7~), python-cffi-backend-api-min (<= 9729), python-cffi-backend-api-max (>= 9729), python-pkg-resources, python:any (<< 2.8), python:any (>= 2.7~), libc6 (>= 2.4)
+Suggests: python-spotify-doc
+Homepage: https://pyspotify.readthedocs.io/
+Priority: optional
+Section: python
+Filename: pool/contrib/p/python-spotify/python-spotify_2.1.3-0mopidy1_armel.deb
+Size: 95096
+SHA256: 77801b7dfe27ea3cd19296497a34a1bba35a1911b41103a4b2355b858b9bad0e
+SHA1: 9bdb177345026a148d5b367ea374e6357b261849
+MD5sum: df8fad5af76586dc894c326d46717359
+Description: Python bindings for libspotify (Python 2)
+ pyspotify provides a Python interface to Spotify's online music streaming
+ service through the libspotify C library.
+ .
+ This package contains the Python 2 version of pyspotify.
+
+Package: python-spotify-dbgsym
+Source: python-spotify
+Version: 2.1.3-0mopidy1
+Auto-Built-Package: debug-symbols
+Architecture: armel
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 171
+Depends: python-spotify (= 2.1.3-0mopidy1)
+Priority: optional
+Section: debug
+Filename: pool/contrib/p/python-spotify/python-spotify-dbgsym_2.1.3-0mopidy1_armel.deb
+Size: 119048
+SHA256: 0f4674f07780b6d92e67128278e71f577e272c600f59d3c2b2821d934374128b
+SHA1: dea16432b40a7a883a8f27d6d6d12b2aa81ca8b6
+MD5sum: 212b63c2b5cb1d4f741d6326baa3e3f1
+Description: debug symbols for python-spotify
+Build-Ids: 8e9d9140b07cb167fa01d607e35d9c291c5873c0
+
+Package: python-spotify-doc
+Source: python-spotify
+Version: 2.1.3-0mopidy1
+Architecture: all
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 1767
+Depends: libjs-sphinxdoc (>= 1.0)
+Recommends: python-spotify
+Built-Using: alabaster (= 0.7.8-1), sphinx (= 1.8.4-1)
+Homepage: https://pyspotify.readthedocs.io/
+Priority: optional
+Section: doc
+Filename: pool/contrib/p/python-spotify/python-spotify-doc_2.1.3-0mopidy1_all.deb
+Size: 151616
+SHA256: 7620dbbd0be038874a15e2db5d1e20125aafadf77d40d5f8053b74b742c05060
+SHA1: d1eac0b218c629df95fc5b71681d845996660929
+MD5sum: d51547a92c2028335e03c66b51220e01
+Description: Python bindings for libspotify (documentation)
+ pyspotify provides a Python interface to Spotify's online music streaming
+ service through the libspotify C library.
+ .
+ This package contains documentation for pyspotify.
+
+Package: python3-spotify
+Source: python-spotify
+Version: 2.1.3-0mopidy1
+Architecture: armel
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 596
+Depends: libspotify12, python3 (>= 3~), python3-cffi-backend-api-min (<= 9729), python3-cffi-backend-api-max (>= 9729), python3-pkg-resources, python3:any, libc6 (>= 2.4)
+Suggests: python-spotify-doc
+Homepage: https://pyspotify.readthedocs.io/
+Priority: optional
+Section: python
+Filename: pool/contrib/p/python-spotify/python3-spotify_2.1.3-0mopidy1_armel.deb
+Size: 95268
+SHA256: d3e84a71171eae6a55c811fdbcbd49033a8d208af432a7d436b73b38f34a2cb5
+SHA1: 2d464d97388358726225426f6a45ca524b3ca522
+MD5sum: d26b277314633cf88adacc1d99dfc69c
+Description: Python bindings for libspotify (Python 3)
+ pyspotify provides a Python interface to Spotify's online music streaming
+ service through the libspotify C library.
+ .
+ This package contains the Python 3 version of pyspotify.
+
+Package: python3-spotify-dbgsym
+Source: python-spotify
+Version: 2.1.3-0mopidy1
+Auto-Built-Package: debug-symbols
+Architecture: armel
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 167
+Depends: python3-spotify (= 2.1.3-0mopidy1)
+Priority: optional
+Section: debug
+Filename: pool/contrib/p/python-spotify/python3-spotify-dbgsym_2.1.3-0mopidy1_armel.deb
+Size: 114956
+SHA256: a692df90abddbff3ddd715e87601dcadd9d1c87aeed6fd6183e535e72d306d98
+SHA1: 63c511aa24d93f34430ca9f75b1bd23af7304dad
+MD5sum: 732d14eb930059c35fc142a85e6a6003
+Description: debug symbols for python3-spotify
+Build-Ids: b965b6053781694ded56728e986f196cd66f4d9f
+
