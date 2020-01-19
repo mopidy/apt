@@ -22,7 +22,7 @@
 <ul class="file-list">
   {% for file in files %}
     <li>
-      <a href="{{ file.path }}">{{ file.path }}</a>
+      <a href="{{ site.baseurl }}{{ file.path }}">{{ file.path }}</a>
       <time datetime="{{ file.modified_time | date_to_xmlschema }}">{{ file.modified_time }}</time>
     </li>
   {% endfor %}
