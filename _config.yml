@@ -1,4 +1,8 @@
-source: public
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - reprepro
 
 defaults:
   - scope:
