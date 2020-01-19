@@ -1,0 +1,3 @@
+Name: buster
+IncomingDir: +b/incoming/buster/
+Allow: unstable

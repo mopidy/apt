@@ -1,0 +1,28 @@
+Origin: Mopidy
+Suite: stable
+Codename: wheezy
+Version: 7
+Architectures: i386 amd64 armel armhf source
+Components: main non-free contrib
+SignWith: 271D2943
+
+Origin: Mopidy
+Codename: jessie
+Version: 8
+Architectures: i386 amd64 armel armhf source
+Components: main non-free contrib
+SignWith: 271D2943
+
+Origin: Mopidy
+Codename: stretch
+Version: 9
+Architectures: i386 amd64 armel armhf source
+Components: main non-free contrib
+SignWith: 271D2943
+
+Origin: Mopidy
+Codename: buster
+Version: 10
+Architectures: i386 amd64 armel armhf source
+Components: main non-free contrib
+SignWith: 271D2943
