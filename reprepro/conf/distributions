@@ -1,20 +1,20 @@
 Origin: Mopidy
+Suite: oldoldstable
 Codename: jessie
-Version: 8
 Architectures: i386 amd64 armel armhf source
 Components: main non-free contrib
 SignWith: 271D2943
 
 Origin: Mopidy
+Suite: oldstable
 Codename: stretch
-Version: 9
 Architectures: i386 amd64 armel armhf source
 Components: main non-free contrib
 SignWith: 271D2943
 
 Origin: Mopidy
+Suite: stable
 Codename: buster
-Version: 10
 Architectures: i386 amd64 armel armhf source
 Components: main non-free contrib
 SignWith: 271D2943
