@@ -1,3 +1,5 @@
 Name: buster
-IncomingDir: +b/incoming/buster/
-Allow: unstable
+IncomingDir: incoming/buster/
+TempDir: incoming/temp/
+Allow: unstable>buster
+Cleanup: unused_buildinfo_files
