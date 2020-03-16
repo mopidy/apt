@@ -45,7 +45,7 @@ Description: Mopidy extension for volume control via ALSA
  This package provides a Mopidy extension for controlling volume through ALSA.
 
 Package: mopidy-beets
-Version: 4.0.0~rc2-1
+Version: 4.0.0-1
 Architecture: all
 Maintainer: Stein Magnus Jodal <jodal@debian.org>
 Installed-Size: 65
@@ -54,11 +54,11 @@ Suggests: beets
 Homepage: https://github.com/mopidy/mopidy-beets
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy-beets/mopidy-beets_4.0.0~rc2-1_all.deb
-Size: 14644
-SHA256: 84a485560241d6cdf36c3174446360da0f12cbfda169cc7690c13f4700a67798
-SHA1: 6c0793885be55e5396fa04e174c05a4092e476a2
-MD5sum: cbd6c3604ef2941aed512d9617a6c7b3
+Filename: pool/main/m/mopidy-beets/mopidy-beets_4.0.0-1_all.deb
+Size: 14692
+SHA256: 7919bae0ef12f33242c5e1183abaa672e990c4fd8411a698ad350efa75f74d6c
+SHA1: a3bc45b7bb8fbe5dc6291660af28f426f27513e5
+MD5sum: 5dac3ac5c428a601b483d4e301bf9ba5
 Description: Mopidy extension for playing music from Beets' web plugin
  Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
  and more. You can edit the playlist from any phone, tablet, or computer using
@@ -300,19 +300,19 @@ Description: Mopidy extension for scrobbling music to Last.fm
  required to make use of this package.
 
 Package: mopidy-somafm
-Version: 2.0.0~rc1-1
+Version: 2.0.0-1
 Architecture: all
 Maintainer: Stein Magnus Jodal <jodal@debian.org>
 Installed-Size: 39
-Depends: mopidy (>= 3.0.0~a4), python3-pkg-resources, python3-pykka, python3-requests, python3:any
+Depends: mopidy (>= 3.0), python3-pkg-resources, python3-pykka, python3-requests, python3:any
 Homepage: https://github.com/AlexandrePTJ/mopidy-somafm
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy-somafm/mopidy-somafm_2.0.0~rc1-1_all.deb
-Size: 8300
-SHA256: f0b368553055e18b4c65d1da355b39b52f9aefe455546981b4051acf2980ce29
-SHA1: bf4ebacbbe5fc7b794a736db9172cf02803c4940
-MD5sum: 518c085a1b02efd8cec032340257d91e
+Filename: pool/main/m/mopidy-somafm/mopidy-somafm_2.0.0-1_all.deb
+Size: 8336
+SHA256: c8dd97d5e91d3b8a4e5d838f50f25e6172c994f8916b21a2bfbaff98ef860b8a
+SHA1: c059bc125c09e158314b35d4b154f3db9078055c
+MD5sum: c08bfd80e82e6df41dc9561a42c421ec
 Description: Mopidy extension for playing music from SomaFM
  Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
  and more. You can edit the playlist from any phone, tablet, or computer using
