@@ -2,7 +2,7 @@ Format: 3.0 (quilt)
 Source: mopidy
 Binary: mopidy, mopidy-doc
 Architecture: all
-Version: 3.0.1-2
+Version: 3.0.2-1
 Maintainer: Stein Magnus Jodal <jodal@debian.org>
 Homepage: https://mopidy.com/
 Standards-Version: 4.4.1
@@ -13,11 +13,11 @@ Package-List:
  mopidy deb sound optional arch=all
  mopidy-doc deb doc optional arch=all
 Checksums-Sha1:
- 9ce2c4d78196c65631de6853d1cffeb4503d533f 460006 mopidy_3.0.1.orig.tar.gz
- 8d4486c15b4f8ffeb5f69ff60cac54ea865bf749 16800 mopidy_3.0.1-2.debian.tar.xz
+ 033c0d5b35492a0c0159842096c2db24d519f9df 428510 mopidy_3.0.2.orig.tar.gz
+ 2a89770dd158b8f49d25ea17986638864019f4ff 16868 mopidy_3.0.2-1.debian.tar.xz
 Checksums-Sha256:
- 7931ca61028e135834df1af22a01029b24f3c2455625f3da84a1a05b5c313ef3 460006 mopidy_3.0.1.orig.tar.gz
- c3fbcdfbfdc8ea20c9857018739352299f3596f327d89c00377f16c44ce594bb 16800 mopidy_3.0.1-2.debian.tar.xz
+ 60b6f48e53069ac280e8271e89f50161d8a3e0c9bee83ac4d862174b3e38cedb 428510 mopidy_3.0.2.orig.tar.gz
+ 516d6f6f6698998a86ebbd76736e81864189fae55d7106793f1990473b593253 16868 mopidy_3.0.2-1.debian.tar.xz
 Files:
- a5a6b9bb942c572ea7e84081520997f6 460006 mopidy_3.0.1.orig.tar.gz
- 9ed8ef063ea20d6b29818698cbecff88 16800 mopidy_3.0.1-2.debian.tar.xz
+ d9f93940ccf714dbb6a9d2be507464ba 428510 mopidy_3.0.2.orig.tar.gz
+ 2aee197713af23378f13c0e390663a7d 16868 mopidy_3.0.2-1.debian.tar.xz
