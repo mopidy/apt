@@ -407,20 +407,20 @@ Description: Client library for Google Play Services OAuth
 
 Package: python3-pykka
 Source: python-pykka
-Version: 2.0.2-3
+Version: 2.0.2-5
 Architecture: all
 Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 948
+Installed-Size: 951
 Depends: python3:any, libjs-sphinxdoc (>= 1.0), sphinx-rtd-theme-common (>= 0.4.3+dfsg)
 Suggests: python3-gevent | python3-eventlet
 Homepage: https://www.pykka.org/
 Priority: optional
 Section: python
-Filename: pool/main/p/python-pykka/python3-pykka_2.0.2-3_all.deb
-Size: 92916
-SHA256: c323ab7976f8bac8f68c44f121003d5c4abe4ce6765c6b629d9818acdcf5340d
-SHA1: 2c531e3fd8581dd56dddaf0001aa731b2875f21b
-MD5sum: 4737d6033602bddbff1e9498fbe16b77
+Filename: pool/main/p/python-pykka/python3-pykka_2.0.2-5_all.deb
+Size: 93080
+SHA256: 463702c1307df9f5e7cde3e027ebc6493a6ee83eddfda7493a601d9a2b0d63ba
+SHA1: 9ca1b19dc17e9c7e4adc3971562568c56c771450
+MD5sum: 9bacf9a396c408033cd67b209247db1a
 Description: Actor model library (Python 3)
  Pykka is a Python implementation of the actor model. The actor model
  introduces some simple rules to control the sharing of state and cooperation
@@ -429,6 +429,4 @@ Description: Actor model library (Python 3)
  .
  Pykka provides an actor API with multiple implementations: threading, gevent,
  and Eventlet.
- .
- This is the Python 3 version of the package.
 
