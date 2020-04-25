@@ -18,3 +18,4 @@ Codename: buster
 Architectures: i386 amd64 armel armhf source
 Components: main non-free contrib
 SignWith: 271D2943
+Tracking: minimal
