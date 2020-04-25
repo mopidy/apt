@@ -1,0 +1,23 @@
+Package: python-spotify-doc
+Source: python-spotify
+Version: 2.1.3-0mopidy1
+Architecture: all
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 1767
+Depends: libjs-sphinxdoc (>= 1.0)
+Recommends: python-spotify
+Built-Using: alabaster (= 0.7.8-1), sphinx (= 1.8.4-1)
+Homepage: https://pyspotify.readthedocs.io/
+Priority: optional
+Section: doc
+Filename: pool/contrib/p/python-spotify/python-spotify-doc_2.1.3-0mopidy1_all.deb
+Size: 151616
+SHA256: 7620dbbd0be038874a15e2db5d1e20125aafadf77d40d5f8053b74b742c05060
+SHA1: d1eac0b218c629df95fc5b71681d845996660929
+MD5sum: d51547a92c2028335e03c66b51220e01
+Description: Python bindings for libspotify (documentation)
+ pyspotify provides a Python interface to Spotify's online music streaming
+ service through the libspotify C library.
+ .
+ This package contains documentation for pyspotify.
+
