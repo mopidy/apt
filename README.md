@@ -3,6 +3,20 @@
 This repo is the source for https://apt.mopidy.com, hosted at GitHub Pages.
 
 
+## Installing packages from the repository
+
+See https://apt.mopidy.com for usage instructions.
+
+
+## Browsing the repository
+
+The repository includes two automatically updated HTML documents listing
+everything the repository contains:
+
+- https://apt.mopidy.com/dists/
+- https://apt.mopidy.com/pool/
+
+
 ## Running locally
 
 See the docs on [Testing your GitHub Pages site locally with Jekyll][1].
