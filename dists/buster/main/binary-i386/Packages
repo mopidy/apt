@@ -115,29 +115,6 @@ Description: extensible music server - documentation
  .
  This package provides the documentation for Mopidy.
 
-Package: mopidy-gmusic
-Version: 4.0.0-1
-Architecture: all
-Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 78
-Depends: mopidy (>= 3.0.0), python3-cachetools, python3-gmusicapi, python3-pkg-resources, python3-pykka, python3-requests, python3:any
-Homepage: https://github.com/mopidy/mopidy-gmusic
-Priority: optional
-Section: sound
-Filename: pool/main/m/mopidy-gmusic/mopidy-gmusic_4.0.0-1_all.deb
-Size: 16864
-SHA256: 2d9c12e1015f26354d948b361c8e8b959ac2151808b26ace8f383a45808a5579
-SHA1: 691ce5dd83d18cf4980178013effe7d44cd37026
-MD5sum: 23492b744739747198b244667b667767
-Description: Mopidy extension for playing music from Google Play Music
- Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
- and more. You can edit the playlist from any phone, tablet, or computer using
- a variety of MPD and web clients.
- .
- This package provides a Mopidy extension for playing music from Google Play
- Music, either music you've uploaded to the library, or music available through
- a paid subscription.
-
 Package: mopidy-internetarchive
 Version: 3.0.0-1
 Architecture: all
