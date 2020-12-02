@@ -1,11 +1,4 @@
 Origin: Mopidy
-Suite: oldoldstable
-Codename: jessie
-Architectures: i386 amd64 armel armhf source
-Components: main non-free contrib
-SignWith: 271D2943
-
-Origin: Mopidy
 Suite: oldstable
 Codename: stretch
 Architectures: i386 amd64 armel armhf source
