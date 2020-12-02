@@ -343,45 +343,6 @@ Description: Mopidy extension for playing music from TuneIn
  This package provides a Mopidy extension for playing music from TuneIn's
  directory of thousands of radio stations from all over the world.
 
-Package: python3-gmusicapi
-Source: python-gmusicapi
-Version: 12.1.1-2
-Architecture: all
-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
-Installed-Size: 1515
-Depends: python3-appdirs (>= 1.1.0), python3-dateutil, python3-decorator, python3-future, python3-gpsoauth, python3-mechanicalsoup, python3-mock, python3-mutagen, python3-oauth2client, python3-proboscis, python3-protobuf, python3-requests, python3-six (>= 1.9.0), python3-validictory, python3:any, libjs-sphinxdoc (>= 1.0), sphinx-rtd-theme-common (>= 0.4.3+dfsg)
-Homepage: https://github.com/simon-weber/gmusicapi
-Priority: optional
-Section: python
-Filename: pool/main/p/python-gmusicapi/python3-gmusicapi_12.1.1-2_all.deb
-Size: 189244
-SHA256: d99c45dd8d3802550c6b7b022b8f6fdfbb4581bc961318930515e6043df4b527
-SHA1: 38a81b050f3e8b3110067bcb06733e56022c7d57
-MD5sum: 2512be0b3300cc6ac495c231d50fde5d
-Description: Unofficial API for Google Play Music
- gmusicapi allows control of Google Play Music from Python.
- .
- gmusicapi is not supported nor endorsed by Google.
-
-Package: python3-gpsoauth
-Source: python-gpsoauth
-Version: 0.4.1-2
-Architecture: all
-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
-Installed-Size: 32
-Depends: python3-pycryptodome, python3-requests, python3:any
-Homepage: https://github.com/simon-weber/gpsoauth
-Priority: optional
-Section: python
-Filename: pool/main/p/python-gpsoauth/python3-gpsoauth_0.4.1-2_all.deb
-Size: 5932
-SHA256: 4a2a2908eaf6a481b5a2292982cd374dc1194181fff15bfb500222e6f60a5140
-SHA1: 0fa21b6c93a38a81bb8ad0719438e7de4c5c89d0
-MD5sum: 0d5478b08722cff2a3e2de7c32504b0a
-Description: Client library for Google Play Services OAuth
- gpsoauth allows Python code to use the "master token" authentication flow
- that Android apps use to authenticate with Google Play services.
-
 Package: python3-pykka
 Source: python-pykka
 Version: 2.0.3-1
