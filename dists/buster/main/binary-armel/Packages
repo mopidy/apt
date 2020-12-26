@@ -323,19 +323,19 @@ Description: Mopidy extension for playing music from SoundCloud
  use of this package.
 
 Package: mopidy-tunein
-Version: 1.0.0-1
+Version: 1.0.2-1
 Architecture: all
 Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 57
-Depends: mopidy (>= 3.0.0), python3-pkg-resources, python3-pykka, python3-requests, python3:any
+Installed-Size: 56
+Depends: mopidy (>= 3.0.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3-requests, python3:any
 Homepage: https://github.com/kingosticks/mopidy-tunein
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy-tunein/mopidy-tunein_1.0.0-1_all.deb
-Size: 12716
-SHA256: 28ce481d8ceb9c97d7ce59e197246d64b2d1578f03f41d1cceaa569f57c9a2af
-SHA1: e677195005b96699b50d4a1fbefef648927b2438
-MD5sum: 73feb1ce510c82cf04f2aa4c7b30baa1
+Filename: pool/main/m/mopidy-tunein/mopidy-tunein_1.0.2-1_all.deb
+Size: 11732
+SHA256: 0d04c65e2fab9c219b794bb894e7f70f4c8caf5d64d2f92e1d2e0da08c5d89b6
+SHA1: cbeec250ed9e15dc05e605b8792fe30bf16743a8
+MD5sum: e19b4ad93de699dbc16d35445bc81402
 Description: Mopidy extension for playing music from TuneIn
  Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
  and more. You can edit the playlist from any phone, tablet, or computer using
