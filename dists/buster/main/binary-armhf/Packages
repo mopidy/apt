@@ -233,19 +233,19 @@ Description: Mopidy extension for searching and browsing podcasts
  multi-level browsing.
 
 Package: mopidy-podcast-itunes
-Version: 3.0.0-1
+Version: 3.0.0-2
 Architecture: all
 Maintainer: Stein Magnus Jodal <jodal@debian.org>
 Installed-Size: 49
-Depends: mopidy (>= 3.0.0), mopidy-podcast (>= 3.0.0), python3-pkg-resources, python3-pykka, python3-requests, python3:any
+Depends: mopidy (>= 3.0.0), mopidy-podcast (>= 3.0.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3-requests, python3:any
 Homepage: https://github.com/tkem/mopidy-podcast-itunes
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy-podcast-itunes/mopidy-podcast-itunes_3.0.0-1_all.deb
-Size: 9824
-SHA256: 2f1bb16981c523c759cb35fa71f247050c3afd323ba4533bc53b20d8c6ed59c4
-SHA1: 43e332df138b8a54771fe56bc82c3734d01e01a8
-MD5sum: fd6c247484ed187bd589949cbfeb2f13
+Filename: pool/main/m/mopidy-podcast-itunes/mopidy-podcast-itunes_3.0.0-2_all.deb
+Size: 9976
+SHA256: b5031a0411e583126327cc6a19fc2f8a5958d787921c8dc30444ab042386dc99
+SHA1: f57352782a79c9497db1f882bf0d9b42b38304aa
+MD5sum: 79138a97403430956256fdcb46187505
 Description: Mopidy extension for searching and browsing iTunes podcasts
  Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
  and more. You can edit the playlist from any phone, tablet, or computer using
