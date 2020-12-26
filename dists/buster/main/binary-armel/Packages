@@ -24,19 +24,19 @@ Description: extensible music server
  SoundCloud, and Google Play Music.
 
 Package: mopidy-alsamixer
-Version: 2.0.0-2
+Version: 2.0.1-1
 Architecture: all
 Maintainer: Stein Magnus Jodal <jodal@debian.org>
 Installed-Size: 39
-Depends: python3-alsaaudio, mopidy (>= 3.0.0), python3-pkg-resources, python3-pykka, python3:any
+Depends: python3-alsaaudio, mopidy (>= 3.0.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3:any
 Homepage: https://mopidy.com/
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy-alsamixer/mopidy-alsamixer_2.0.0-2_all.deb
-Size: 8248
-SHA256: 778a1edee6073639c76d330e5684f0d5707010834e8890fce4fd8375c973acfb
-SHA1: cdffaead27eae4585801e41ecafad5045a39b990
-MD5sum: a940786cb882188b526ca9dc789a5995
+Filename: pool/main/m/mopidy-alsamixer/mopidy-alsamixer_2.0.1-1_all.deb
+Size: 7632
+SHA256: 731c4698c0cb4a5eb95e581888e4a2c196e1bf11e3bd77e553ea2ec510cc960f
+SHA1: 02b19ecac2e78af5d98fcd0c944ec9e35010864b
+MD5sum: 36bbbc2812e42cd93c5195b1d43a1c2e
 Description: Mopidy extension for volume control via ALSA
  Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
  and more. You can edit the playlist from any phone, tablet, or computer using
