@@ -45,20 +45,20 @@ Description: Mopidy extension for volume control via ALSA
  This package provides a Mopidy extension for controlling volume through ALSA.
 
 Package: mopidy-beets
-Version: 4.0.0-1
+Version: 4.0.1-1
 Architecture: all
 Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 65
-Depends: mopidy (>= 3.0.0), python3-pkg-resources, python3-pykka, python3-requests, python3:any
+Installed-Size: 64
+Depends: mopidy (>= 3.0.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3-requests, python3:any
 Suggests: beets
 Homepage: https://github.com/mopidy/mopidy-beets
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy-beets/mopidy-beets_4.0.0-1_all.deb
-Size: 14692
-SHA256: 7919bae0ef12f33242c5e1183abaa672e990c4fd8411a698ad350efa75f74d6c
-SHA1: a3bc45b7bb8fbe5dc6291660af28f426f27513e5
-MD5sum: 5dac3ac5c428a601b483d4e301bf9ba5
+Filename: pool/main/m/mopidy-beets/mopidy-beets_4.0.1-1_all.deb
+Size: 13908
+SHA256: 005a9eb7c6a39e71a110d33018d262702cd5d9ba747d5690010dc2a518d79619
+SHA1: 92104c80680f512124a89277b82c3f6d5ed02e90
+MD5sum: 5908ee068c09ffdd7299ea215ff2b3f9
 Description: Mopidy extension for playing music from Beets' web plugin
  Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
  and more. You can edit the playlist from any phone, tablet, or computer using
