@@ -255,19 +255,19 @@ Description: Mopidy extension for searching and browsing iTunes podcasts
  on Apple iTunes Store.
 
 Package: mopidy-scrobbler
-Version: 2.0.0-1
+Version: 2.0.1-1
 Architecture: all
 Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 35
-Depends: mopidy (>= 3.0.0), python3-pkg-resources, python3-pykka, python3-pylast, python3:any
+Installed-Size: 34
+Depends: mopidy (>= 3.0.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3-pylast, python3:any
 Homepage: https://mopidy.com/
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy-scrobbler/mopidy-scrobbler_2.0.0-1_all.deb
-Size: 6996
-SHA256: cda2933685480dc37da4c29ab1fe88efd7d21bfa6ba5a577250a7504de58e4cb
-SHA1: a0d4bd3225c47335a852c91acc8366c6aca405e7
-MD5sum: 249b17e3fa0d0962c67ef052a0304d1a
+Filename: pool/main/m/mopidy-scrobbler/mopidy-scrobbler_2.0.1-1_all.deb
+Size: 6556
+SHA256: abe8bec8dca68e4d3447b622335fac6b8ed21c8560215212890785547cbd160e
+SHA1: 379438861722189eb3ca4ac8a2d7961ce49031d6
+MD5sum: f3ef3cddbe9a8675353fb915b54f8dc9
 Description: Mopidy extension for scrobbling music to Last.fm
  Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
  and more. You can edit the playlist from any phone, tablet, or computer using
