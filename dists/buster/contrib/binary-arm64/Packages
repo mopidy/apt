@@ -1,0 +1,23 @@
+Package: mopidy-spotify
+Version: 4.1.0-0mopidy1
+Architecture: all
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 112
+Depends: mopidy (>= 3.0.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3-requests, python3-spotify (>= 2.0.5), python3:any
+Homepage: https://github.com/mopidy/mopidy-spotify
+Priority: optional
+Section: sound
+Filename: pool/contrib/m/mopidy-spotify/mopidy-spotify_4.1.0-0mopidy1_all.deb
+Size: 25688
+SHA256: ab2d61cb573a9b8be72910f4c774cf2ed466ccd10042b0897c09160df43ae80a
+SHA1: 061c76be766dfb252ad30ade823724ff22e6e6d9
+MD5sum: d15fcd66cff30a55ce30274624a7aaa1
+Description: Mopidy extension for playing music from Spotify
+ Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
+ and more. You can edit the playlist from any phone, tablet, or computer using
+ a variety of MPD and web clients.
+ .
+ This package provides a Mopidy extension for playing music from the Spotify
+ music streaming service. A Spotify Premium subscription is required to make
+ use of this package.
+
