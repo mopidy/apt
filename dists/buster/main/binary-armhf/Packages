@@ -278,19 +278,19 @@ Description: Mopidy extension for scrobbling music to Last.fm
  required to make use of this package.
 
 Package: mopidy-somafm
-Version: 2.0.0-2
+Version: 2.0.1-1
 Architecture: all
 Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 39
+Installed-Size: 41
 Depends: mopidy (>= 3.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3-requests, python3:any
 Homepage: https://github.com/AlexandrePTJ/mopidy-somafm
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy-somafm/mopidy-somafm_2.0.0-2_all.deb
-Size: 8476
-SHA256: ae3a664f2af7c1f34257533fa4ae6cb065b7011d185c71c646ad8d421c946acd
-SHA1: 153467ed9119698d5a5b93447e9081bf7f23e3d6
-MD5sum: 0f462f5b2e83de4689f922c677997dd3
+Filename: pool/main/m/mopidy-somafm/mopidy-somafm_2.0.1-1_all.deb
+Size: 8752
+SHA256: 52963e4c2cdf55bd8a28c2c82c4dd8e10e29bea41a8363302cea03b529003a26
+SHA1: 7a827e47d2ee76334e64f90d7fcab54f9aa11d4e
+MD5sum: 5ba8dc31d331a6dce4f5f59ecd60dd82
 Description: Mopidy extension for playing music from SomaFM
  Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
  and more. You can edit the playlist from any phone, tablet, or computer using
