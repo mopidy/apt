@@ -1,19 +1,19 @@
 Package: mopidy
-Version: 3.1.1-1
+Version: 3.2.0-0mopidy1
 Architecture: all
 Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 492
+Installed-Size: 496
 Depends: adduser, debconf, gir1.2-gst-plugins-base-1.0, gir1.2-gstreamer-1.0, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, lsb-base, python3-gst-1.0, python3-tornado (>= 4.4), debconf (>= 0.5) | debconf-2.0, python3-pkg-resources, python3-pykka (>= 2.0.1), python3-requests, python3:any
 Recommends: gstreamer1.0-alsa, gstreamer1.0-pulseaudio, gstreamer1.0-tools
 Suggests: mopidy-doc
 Homepage: https://mopidy.com/
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy/mopidy_3.1.1-1_all.deb
-Size: 104172
-SHA256: ad0e17c5bc6529e44bf7d8dce4f2595ca81cfa4a7e9e75900231b09b3b10dc8b
-SHA1: e7bdba3d229644c84fdb86452fd5e8e9c447a571
-MD5sum: da49d71b222856acec36f1d90f877dcd
+Filename: pool/main/m/mopidy/mopidy_3.2.0-0mopidy1_all.deb
+Size: 105528
+SHA256: a603ee561d0eeab6d009706445970180cdf3498fd25d4b6d7cb83ec7c581d436
+SHA1: 1a152feb3965cd78ec42acc4c9e6bfdc281b579a
+MD5sum: 769770da873eb723016e73656c30a1e1
 Description: extensible music server
  Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
  and more. You can edit the playlist from any phone, tablet, or computer using
@@ -92,10 +92,10 @@ Description: Mopidy extension for playing music from Digital Media Servers
 
 Package: mopidy-doc
 Source: mopidy
-Version: 3.1.1-1
+Version: 3.2.0-0mopidy1
 Architecture: all
 Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 3422
+Installed-Size: 3450
 Depends: libjs-sphinxdoc (>= 1.0), sphinx-rtd-theme-common (>= 0.4.3+dfsg)
 Recommends: mopidy
 Replaces: mopidy (<< 0.7.3-2)
@@ -103,11 +103,11 @@ Built-Using: sphinx (= 1.8.4-1)
 Homepage: https://mopidy.com/
 Priority: optional
 Section: doc
-Filename: pool/main/m/mopidy/mopidy-doc_3.1.1-1_all.deb
-Size: 508344
-SHA256: 070b1bef25d4aeb3da2399ad2ee120319a7b96e5d9b3c593911af76782dc8354
-SHA1: 1f3fcb5a13b954b8818206545f71b3761a11e30b
-MD5sum: 11bcd167ab07c6c9e1527d9836138526
+Filename: pool/main/m/mopidy/mopidy-doc_3.2.0-0mopidy1_all.deb
+Size: 510936
+SHA256: 3ba9046cabce269d69dff7a5f5ef9410fa7f6930a00d24741e004f1ca6255100
+SHA1: f7bf820ecaec5c72a62d9409c1d0d6ab0f86768e
+MD5sum: 5c2f8e0e0692405beeff2379c3d2acd9
 Description: extensible music server - documentation
  Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
  and more. You can edit the playlist from any phone, tablet, or computer using
