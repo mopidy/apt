@@ -205,21 +205,21 @@ Description: Mopidy extension for controlling playback through MPRIS
  MPRIS D-Bus interface.
 
 Package: mopidy-podcast
-Version: 3.0.0-2
+Version: 3.0.1-1
 Architecture: all
 Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 164
+Installed-Size: 166
 Depends: mopidy (>= 3.0.0), python3-cachetools, python3-pkg-resources, python3-pykka (>= 2.0.1), python3-uritools, python3:any, libjs-sphinxdoc (>= 1.0)
 Breaks: mopidy-podcast-gpodder (<< 2.0)
 Built-Using: sphinx (= 1.8.4-1)
 Homepage: https://github.com/tkem/mopidy-podcast
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy-podcast/mopidy-podcast_3.0.0-2_all.deb
-Size: 33020
-SHA256: 4afce3d3e82cc133381e3a200fb991d349baa8bd49fdbb412d42c8e3435776f5
-SHA1: a88dd08e0d4d9a9208e9990fcbb46f9708512609
-MD5sum: 7d795c705502c65a31381075ae20cea7
+Filename: pool/main/m/mopidy-podcast/mopidy-podcast_3.0.1-1_all.deb
+Size: 33240
+SHA256: f350422a6f0a742432af3019a0ee6a9b75e40c622557397116049db15191ef28
+SHA1: c0ef9d2614d27428b45b94c835c34bddc7e4a1f3
+MD5sum: ebc7e0db1dbd11e2c5936dbd4556f3d5
 Description: Mopidy extension for searching and browsing podcasts
  Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
  and more. You can edit the playlist from any phone, tablet, or computer using
