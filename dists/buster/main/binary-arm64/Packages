@@ -68,20 +68,20 @@ Description: Mopidy extension for playing music from Beets' web plugin
  plugin of the Beets music library organizer.
 
 Package: mopidy-dleyna
-Version: 2.0.1-2
+Version: 2.0.2-1
 Architecture: all
 Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 163
+Installed-Size: 164
 Depends: dleyna-server, python3-dbus, mopidy (>= 3.0.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3-uritools, python3:any, libjs-sphinxdoc (>= 1.0)
 Built-Using: sphinx (= 1.8.4-1)
 Homepage: https://github.com/tkem/mopidy-dleyna
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy-dleyna/mopidy-dleyna_2.0.1-2_all.deb
-Size: 35232
-SHA256: 66b8a77e8bf78ad8af43f6b64f0f30fcedcfc3f64c357ba79d8871114763f57c
-SHA1: 10270d8118bec4748d4f2f0dcf05e2bd66d93d00
-MD5sum: d0504254e2231fbccc5337ecba5527a5
+Filename: pool/main/m/mopidy-dleyna/mopidy-dleyna_2.0.2-1_all.deb
+Size: 35424
+SHA256: 06d8516f222cf5e757804ad4650fa6507dcd8f737a893b96dc65ca1aa22bd626
+SHA1: 4c6f4a6b9921c17fa5d3c2a8b880db2ca5439c0e
+MD5sum: c6d48974f2b305d0c8a78ba37fbedf2a
 Description: Mopidy extension for playing music from Digital Media Servers
  Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
  and more. You can edit the playlist from any phone, tablet, or computer using
