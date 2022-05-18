@@ -116,19 +116,19 @@ Description: extensible music server - documentation
  This package provides the documentation for Mopidy.
 
 Package: mopidy-internetarchive
-Version: 3.0.0-2
+Version: 3.0.1-1
 Architecture: all
 Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 56
+Installed-Size: 57
 Depends: mopidy (>= 3.0.0), python3-cachetools, python3-pkg-resources, python3-pykka (>= 2.0.1), python3-requests, python3-uritools, python3:any
 Homepage: https://github.com/tkem/mopidy-internetarchive
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy-internetarchive/mopidy-internetarchive_3.0.0-2_all.deb
-Size: 11800
-SHA256: 88973f07e228d21403231f4cb925cc42c130f466408a6a0c8c45f23e90d442e0
-SHA1: 5a4d98ec017d141856da08c878436eadc6bd4958
-MD5sum: fd566fc26db83de53ad29b07bf4d0774
+Filename: pool/main/m/mopidy-internetarchive/mopidy-internetarchive_3.0.1-1_all.deb
+Size: 11988
+SHA256: 67f729713e138d172feab2e880d7e5b2e103398dc062d29956dd0196498e431b
+SHA1: 5abaa6ae141a7569604547d657b4fc75c6448078
+MD5sum: 0fd4fa78deefedc43be5aed6bfdea7c3
 Description: Mopidy extension for playing music from the Internet Archive
  Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
  and more. You can edit the playlist from any phone, tablet, or computer using
