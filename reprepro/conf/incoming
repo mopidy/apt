@@ -1,5 +1,5 @@
-Name: buster
-IncomingDir: incoming/buster/
+Name: bullseye
+IncomingDir: incoming/bullseye/
 TempDir: incoming/temp/
-Allow: unstable>buster
+Allow: unstable>bullseye
 Cleanup: unused_buildinfo_files

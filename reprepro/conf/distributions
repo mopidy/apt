@@ -1,13 +1,21 @@
 Origin: Mopidy
-Suite: oldstable
+Suite: oldoldstable
 Codename: stretch
 Architectures: i386 amd64 armel armhf source
 Components: main non-free contrib
 SignWith: 271D2943
 
 Origin: Mopidy
-Suite: stable
+Suite: oldstable
 Codename: buster
+Architectures: i386 amd64 armel armhf arm64 source
+Components: main non-free contrib
+SignWith: 271D2943
+Tracking: minimal
+
+Origin: Mopidy
+Suite: stable
+Codename: bullseye
 Architectures: i386 amd64 armel armhf arm64 source
 Components: main non-free contrib
 SignWith: 271D2943

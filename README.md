@@ -31,10 +31,10 @@ See the docs on [Testing your GitHub Pages site locally with Jekyll][1].
 
 2. Copy the build result (`*.deb`, `*.buildinfo`, `*.changes`, `*.dsc`, orig
    and debian tarballs) to this repo in the `reprepro/incoming/$dist/`
-   directory, where `$dist` is e.g. `buster`.
+   directory, where `$dist` is e.g. `bullseye`.
 
 3. From the root of the repo, run `reprepro -b reprepro processincoming $dist`,
-   where `$dist` is e.g. `buster`.
+   where `$dist` is e.g. `bullseye`.
 
 4. Commit the changes to Git, and push to GitHub to make the changes public.
 
