@@ -1,0 +1,39 @@
+Package: libspotify-dev
+Source: libspotify
+Version: 12.1.51-1
+Architecture: amd64
+Maintainer: Stein Magnus Jodal <stein.magnus@jodal.no>
+Installed-Size: 1642
+Depends: libspotify12 (= 12.1.51-1)
+Homepage: http://developer.spotify.com/en/libspotify/
+Priority: extra
+Section: libdevel
+Filename: pool/non-free/libs/libspotify/libspotify-dev_12.1.51-1_amd64.deb
+Size: 464066
+SHA256: acdd35ce4726c047683de36ea2c52b5f86c9625345d8a42ebe874c61153c2ed9
+SHA1: d537c5604d4d0e64cb0aa231b02aa27168d37635
+MD5sum: 455edf2d13a8234ab31d6dda27452fae
+Description: Library for using the Spotify music streaming service
+ This development package provides the header files and the symbolic links to
+ allow compilation and linking of programs that use the libraries provided in
+ the libspotify12 package.
+
+Package: libspotify12
+Source: libspotify
+Version: 12.1.51-1
+Architecture: amd64
+Maintainer: Stein Magnus Jodal <stein.magnus@jodal.no>
+Installed-Size: 2569
+Depends: libc6 (>= 2.7)
+Homepage: http://developer.spotify.com/en/libspotify/
+Priority: extra
+Section: libs
+Filename: pool/non-free/libs/libspotify/libspotify12_12.1.51-1_amd64.deb
+Size: 1145468
+SHA256: 9ab71db7215fc278e8d2ad550b2329dde34cc25dd82c09986089240acdab7021
+SHA1: 4be11cc82b48a752e8acf15f72d7b1b40f90a4d5
+MD5sum: 15f308474632a3bf0214a3beeeaa9265
+Description: Library for using the Spotify music streaming service
+ The libspotify C API package allows third party developers to write
+ applications that utilize the Spotify music streaming service.
+

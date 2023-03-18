@@ -1,0 +1,367 @@
+Package: mopidy
+Version: 3.4.1-1
+Architecture: all
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 505
+Depends: adduser, debconf, gir1.2-gst-plugins-base-1.0, gir1.2-gstreamer-1.0, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, lsb-base, python3-gst-1.0, python3-tornado (>= 4.4), debconf (>= 0.5) | debconf-2.0, python3-pkg-resources, python3-pykka, python3-requests, python3:any
+Recommends: gstreamer1.0-alsa, gstreamer1.0-pulseaudio, gstreamer1.0-tools
+Suggests: mopidy-doc
+Homepage: https://mopidy.com/
+Priority: optional
+Section: sound
+Filename: pool/main/m/mopidy/mopidy_3.4.1-1_all.deb
+Size: 107912
+SHA256: 353aefe71efbc1a184a73f3a5adc13060ffa8af5b1ec0bf43eeffaa7469efa58
+SHA1: 46d5e9ee440c3f015d2bca6af6c7265c19319186
+MD5sum: 865ae6e4826d222a799686f04bfb5c4d
+Description: extensible music server
+ Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
+ and more. You can edit the playlist from any phone, tablet, or computer using
+ a variety of MPD and web clients.
+ .
+ Vanilla Mopidy only plays music from files and radio streams. Through
+ extensions, Mopidy can play music from cloud services like Spotify,
+ SoundCloud, and Google Play Music.
+
+Package: mopidy-alsamixer
+Version: 2.0.1-1
+Architecture: all
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 39
+Depends: python3-alsaaudio, mopidy (>= 3.0.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3:any
+Homepage: https://mopidy.com/
+Priority: optional
+Section: sound
+Filename: pool/main/m/mopidy-alsamixer/mopidy-alsamixer_2.0.1-1_all.deb
+Size: 7632
+SHA256: 731c4698c0cb4a5eb95e581888e4a2c196e1bf11e3bd77e553ea2ec510cc960f
+SHA1: 02b19ecac2e78af5d98fcd0c944ec9e35010864b
+MD5sum: 36bbbc2812e42cd93c5195b1d43a1c2e
+Description: Mopidy extension for volume control via ALSA
+ Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
+ and more. You can edit the playlist from any phone, tablet, or computer using
+ a variety of MPD and web clients.
+ .
+ This package provides a Mopidy extension for controlling volume through ALSA.
+
+Package: mopidy-beets
+Version: 4.0.1-1
+Architecture: all
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 64
+Depends: mopidy (>= 3.0.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3-requests, python3:any
+Suggests: beets
+Homepage: https://github.com/mopidy/mopidy-beets
+Priority: optional
+Section: sound
+Filename: pool/main/m/mopidy-beets/mopidy-beets_4.0.1-1_all.deb
+Size: 13908
+SHA256: 005a9eb7c6a39e71a110d33018d262702cd5d9ba747d5690010dc2a518d79619
+SHA1: 92104c80680f512124a89277b82c3f6d5ed02e90
+MD5sum: 5908ee068c09ffdd7299ea215ff2b3f9
+Description: Mopidy extension for playing music from Beets' web plugin
+ Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
+ and more. You can edit the playlist from any phone, tablet, or computer using
+ a variety of MPD and web clients.
+ .
+ This package provides a Mopidy extension for playing music from the web
+ plugin of the Beets music library organizer.
+
+Package: mopidy-dleyna
+Version: 2.0.2-1
+Architecture: all
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 164
+Depends: dleyna-server, python3-dbus, mopidy (>= 3.0.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3-uritools, python3:any, libjs-sphinxdoc (>= 1.0)
+Built-Using: sphinx (= 1.8.4-1)
+Homepage: https://github.com/tkem/mopidy-dleyna
+Priority: optional
+Section: sound
+Filename: pool/main/m/mopidy-dleyna/mopidy-dleyna_2.0.2-1_all.deb
+Size: 35424
+SHA256: 06d8516f222cf5e757804ad4650fa6507dcd8f737a893b96dc65ca1aa22bd626
+SHA1: 4c6f4a6b9921c17fa5d3c2a8b880db2ca5439c0e
+MD5sum: c6d48974f2b305d0c8a78ba37fbedf2a
+Description: Mopidy extension for playing music from Digital Media Servers
+ Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
+ and more. You can edit the playlist from any phone, tablet, or computer using
+ a variety of MPD and web clients.
+ .
+ This package provides a Mopidy extension for playing music from DLNA Digital
+ Media Servers using the dLeyna D-Bus interface.
+
+Package: mopidy-doc
+Source: mopidy
+Version: 3.4.1-1
+Architecture: all
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 2494
+Depends: libjs-sphinxdoc (>= 1.0), sphinx-rtd-theme-common (>= 0.4.3+dfsg)
+Recommends: mopidy
+Replaces: mopidy (<< 0.7.3-2)
+Built-Using: sphinx (= 1.8.4-1)
+Homepage: https://mopidy.com/
+Priority: optional
+Section: doc
+Filename: pool/main/m/mopidy/mopidy-doc_3.4.1-1_all.deb
+Size: 434608
+SHA256: 3a027e4b32c27e076140cdacb0dda90d2a6b1f592442b9274b5c4aa5e2fc221c
+SHA1: ff706c0ce0b1ce1c94dab2d7ba33fb0738e96e5c
+MD5sum: 142a68fec62f1d51eb2bf45754608729
+Description: extensible music server - documentation
+ Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
+ and more. You can edit the playlist from any phone, tablet, or computer using
+ a variety of MPD and web clients.
+ .
+ This package provides the documentation for Mopidy.
+
+Package: mopidy-internetarchive
+Version: 3.0.1-1
+Architecture: all
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 57
+Depends: mopidy (>= 3.0.0), python3-cachetools, python3-pkg-resources, python3-pykka (>= 2.0.1), python3-requests, python3-uritools, python3:any
+Homepage: https://github.com/tkem/mopidy-internetarchive
+Priority: optional
+Section: sound
+Filename: pool/main/m/mopidy-internetarchive/mopidy-internetarchive_3.0.1-1_all.deb
+Size: 11988
+SHA256: 67f729713e138d172feab2e880d7e5b2e103398dc062d29956dd0196498e431b
+SHA1: 5abaa6ae141a7569604547d657b4fc75c6448078
+MD5sum: 0fd4fa78deefedc43be5aed6bfdea7c3
+Description: Mopidy extension for playing music from the Internet Archive
+ Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
+ and more. You can edit the playlist from any phone, tablet, or computer using
+ a variety of MPD and web clients.
+ .
+ This package provides a Mopidy extension for playing music from the Internet
+ Archive.
+
+Package: mopidy-local
+Version: 3.2.1-1
+Architecture: all
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 125
+Depends: mopidy (>= 3.0.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3-uritools, python3:any
+Homepage: https://mopidy.com/
+Priority: optional
+Section: sound
+Filename: pool/main/m/mopidy-local/mopidy-local_3.2.1-1_all.deb
+Size: 22412
+SHA256: 52919e45f6cc3164b1008b70ce658aa311f56c4c727e250c5276e14c377889f6
+SHA1: 90ba728663a582a2ccbbd93e816df4f4809bff63
+MD5sum: a90fa917fb147c32e365e0cd09d729d6
+Description: Mopidy extension for playing music from your local music archive
+ Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
+ and more. You can edit the playlist from any phone, tablet, or computer using
+ a variety of MPD and web clients.
+ .
+ This package provides a Mopidy extension for playing music from your local
+ music archive. Mopidy-Local builds an index of your archive's metadata ahead
+ of time, and can thus provide features like search.
+
+Package: mopidy-mpd
+Version: 3.3.0-1
+Architecture: all
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 183
+Depends: mopidy (>= 3.3.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3:any
+Homepage: https://mopidy.com/
+Priority: optional
+Section: sound
+Filename: pool/main/m/mopidy-mpd/mopidy-mpd_3.3.0-1_all.deb
+Size: 38424
+SHA256: cf8b924ba5f98aab34b97c19125e68fa7b0bf7f4e429f61f9770d9e0ff0d2c05
+SHA1: e13e0df058aca21af524b3e650c923ffd4f6305c
+MD5sum: 455499d8365741b3ac42a85007ef2bce
+Description: Mopidy extension for controlling Mopidy from MPD clients
+ Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
+ and more. You can edit the playlist from any phone, tablet, or computer using
+ a variety of MPD and web clients.
+ .
+ This package provides a Mopidy extension for controlling Mopidy from MPD
+ clients.
+
+Package: mopidy-mpris
+Version: 3.0.3-1
+Architecture: all
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 77
+Depends: mopidy (>= 3.0.0), python3-pkg-resources, python3-pydbus, python3-pykka (>= 2.0.1), python3:any
+Homepage: https://www.mopidy.com/
+Priority: optional
+Section: sound
+Filename: pool/main/m/mopidy-mpris/mopidy-mpris_3.0.3-1_all.deb
+Size: 17996
+SHA256: 015c46850ef64a79a7cc4fe36adebc56474b1493605efe637cf981760782c41a
+SHA1: bcda150ae9839c3afc6707476a2424d057d19154
+MD5sum: 2f6192d4f800483fa8b7642f687533cf
+Description: Mopidy extension for controlling playback through MPRIS
+ Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
+ and more. You can edit the playlist from any phone, tablet, or computer using
+ a variety of MPD and web clients.
+ .
+ This package provides a Mopidy extension for controlling playback through the
+ MPRIS D-Bus interface.
+
+Package: mopidy-podcast
+Version: 3.0.1-1
+Architecture: all
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 166
+Depends: mopidy (>= 3.0.0), python3-cachetools, python3-pkg-resources, python3-pykka (>= 2.0.1), python3-uritools, python3:any, libjs-sphinxdoc (>= 1.0)
+Breaks: mopidy-podcast-gpodder (<< 2.0)
+Built-Using: sphinx (= 1.8.4-1)
+Homepage: https://github.com/tkem/mopidy-podcast
+Priority: optional
+Section: sound
+Filename: pool/main/m/mopidy-podcast/mopidy-podcast_3.0.1-1_all.deb
+Size: 33240
+SHA256: f350422a6f0a742432af3019a0ee6a9b75e40c622557397116049db15191ef28
+SHA1: c0ef9d2614d27428b45b94c835c34bddc7e4a1f3
+MD5sum: ebc7e0db1dbd11e2c5936dbd4556f3d5
+Description: Mopidy extension for searching and browsing podcasts
+ Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
+ and more. You can edit the playlist from any phone, tablet, or computer using
+ a variety of MPD and web clients.
+ .
+ This package provides a Mopidy extension that lets you browse podcasts
+ distributed as RSS feeds and play individual episodes in a variety of audio
+ formats. Podcasts are mapped to albums, while podcast episodes are shown as
+ tracks in Mopidy, with metadata converted to Mopidy's native data model where
+ applicable. OPML 2.0 subscription lists and directories are also supported for
+ multi-level browsing.
+
+Package: mopidy-podcast-itunes
+Version: 3.0.1-1
+Architecture: all
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 50
+Depends: mopidy (>= 3.0.0), mopidy-podcast (>= 3.0.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3-requests, python3:any
+Homepage: https://github.com/tkem/mopidy-podcast-itunes
+Priority: optional
+Section: sound
+Filename: pool/main/m/mopidy-podcast-itunes/mopidy-podcast-itunes_3.0.1-1_all.deb
+Size: 10160
+SHA256: 4544bb0fe71ecaab5e9b472ac50b2259d576b9170f6ffd2febf153eea10e3a63
+SHA1: b9fe3493bcdb407c28a63320900acb4e4415621f
+MD5sum: c6ec630da7ac1aa707284d4f5c81bb87
+Description: Mopidy extension for searching and browsing iTunes podcasts
+ Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
+ and more. You can edit the playlist from any phone, tablet, or computer using
+ a variety of MPD and web clients.
+ .
+ This package provides a Mopidy extension for searching and browsing podcasts
+ on Apple iTunes Store.
+
+Package: mopidy-scrobbler
+Version: 2.0.1-1
+Architecture: all
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 34
+Depends: mopidy (>= 3.0.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3-pylast, python3:any
+Homepage: https://mopidy.com/
+Priority: optional
+Section: sound
+Filename: pool/main/m/mopidy-scrobbler/mopidy-scrobbler_2.0.1-1_all.deb
+Size: 6556
+SHA256: abe8bec8dca68e4d3447b622335fac6b8ed21c8560215212890785547cbd160e
+SHA1: 379438861722189eb3ca4ac8a2d7961ce49031d6
+MD5sum: f3ef3cddbe9a8675353fb915b54f8dc9
+Description: Mopidy extension for scrobbling music to Last.fm
+ Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
+ and more. You can edit the playlist from any phone, tablet, or computer using
+ a variety of MPD and web clients.
+ .
+ This package provides a Mopidy extension for scrobbling metadata about music
+ you've played with Mopidy to the Last.fm service. A free Last.fm account is
+ required to make use of this package.
+
+Package: mopidy-somafm
+Version: 2.0.2-1
+Architecture: all
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 41
+Depends: mopidy (>= 3.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3-requests, python3:any
+Homepage: https://github.com/AlexandrePTJ/mopidy-somafm
+Priority: optional
+Section: sound
+Filename: pool/main/m/mopidy-somafm/mopidy-somafm_2.0.2-1_all.deb
+Size: 8844
+SHA256: 9b35e6b79ff4db264d9ed4ec69b88d42f78c6f747636c77d5e4699bf26c4dae0
+SHA1: 3a10285f722bd2a41fccf6c5c4a93a998a360389
+MD5sum: adce9177429a23629f1921343407c97f
+Description: Mopidy extension for playing music from SomaFM
+ Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
+ and more. You can edit the playlist from any phone, tablet, or computer using
+ a variety of MPD and web clients.
+ .
+ This package provides a Mopidy extension for playing music from the SomaFM
+ music streaming service.
+
+Package: mopidy-soundcloud
+Version: 3.0.2-1
+Architecture: all
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 57
+Depends: mopidy (>= 3.0.0), python3-bs4, python3-pkg-resources, python3-pykka (>= 2.0.1), python3-requests, python3:any
+Homepage: https://github.com/mopidy/mopidy-soundcloud
+Priority: optional
+Section: sound
+Filename: pool/main/m/mopidy-soundcloud/mopidy-soundcloud_3.0.2-1_all.deb
+Size: 12000
+SHA256: 454cbde8f7b2814e83fb96bffaedace50e21bf84e30769cc652c37e29600f0be
+SHA1: 51673602f28def7108e31f95ffc8e66a5779586f
+MD5sum: 6399acbe99fa8bc69e3e943827a6e0d3
+Description: Mopidy extension for playing music from SoundCloud
+ Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
+ and more. You can edit the playlist from any phone, tablet, or computer using
+ a variety of MPD and web clients.
+ .
+ This package provides a Mopidy extension for playing music from the SoundCloud
+ music streaming service. A free SoundCloud user account is required to make
+ use of this package.
+
+Package: mopidy-tunein
+Version: 1.1.0-1
+Architecture: all
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 57
+Depends: mopidy (>= 3.0.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3-requests, python3:any
+Homepage: https://github.com/kingosticks/mopidy-tunein
+Priority: optional
+Section: sound
+Filename: pool/main/m/mopidy-tunein/mopidy-tunein_1.1.0-1_all.deb
+Size: 11796
+SHA256: 3ec460c6ed7675e2cd1cba8c12d72bf0a072c2fddf176bd82f6b66718ac33bc3
+SHA1: 1dd838491d1ce534d634726265da12bc5dfafb69
+MD5sum: b9d192888e77e71ee14383131d58d480
+Description: Mopidy extension for playing music from TuneIn
+ Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
+ and more. You can edit the playlist from any phone, tablet, or computer using
+ a variety of MPD and web clients.
+ .
+ This package provides a Mopidy extension for playing music from TuneIn's
+ directory of thousands of radio stations from all over the world.
+
+Package: python3-pykka
+Source: python-pykka
+Version: 2.0.3-1
+Architecture: all
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 972
+Depends: python3-pkg-resources, python3:any, libjs-sphinxdoc (>= 1.0), sphinx-rtd-theme-common (>= 0.4.3+dfsg)
+Homepage: https://www.pykka.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-pykka/python3-pykka_2.0.3-1_all.deb
+Size: 95176
+SHA256: 0392477a2106304c7650b3a340328b18472a3cdf569a6c8cfec71e7167cabb9b
+SHA1: 566d82b3b8410e2971cb3380416583a7af5ceee3
+MD5sum: ff70f56237d2089e58a2dcbe0946f9ed
+Description: Actor model library (Python 3)
+ Pykka is a Python implementation of the actor model. The actor model
+ introduces some simple rules to control the sharing of state and cooperation
+ between execution units, which makes it easier to build concurrent
+ applications.
+
