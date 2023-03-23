@@ -1,4 +1,4 @@
 # Mopidy APT archive
 # Built on Debian 10 (buster), compatible with Ubuntu 19.10 and newer
-deb [signed-by=/usr/local/share/keyrings/mopidy-archive-keyring.gpg] https://apt.mopidy.com/ buster main contrib non-free
-deb-src [signed-by=/usr/local/share/keyrings/mopidy-archive-keyring.gpg] https://apt.mopidy.com/ buster main contrib non-free
+deb [signed-by=/etc/apt/keyrings/mopidy-archive-keyring.gpg] https://apt.mopidy.com/ buster main contrib non-free
+deb-src [signed-by=/etc/apt/keyrings/mopidy-archive-keyring.gpg] https://apt.mopidy.com/ buster main contrib non-free
