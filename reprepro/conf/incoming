@@ -1,5 +1,5 @@
-Name: bullseye
-IncomingDir: incoming/bullseye/
+Name: bookworm
+IncomingDir: incoming/bookworm/
 TempDir: incoming/temp/
-Allow: unstable>bullseye
+Allow: unstable>bookworm
 Cleanup: unused_buildinfo_files

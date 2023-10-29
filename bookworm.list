@@ -1,0 +1,4 @@
+# Mopidy APT archive
+# Built on Debian 12 (bookworm), compatible with Ubuntu 23.10 and Raspberry Pi OS 2023-10-10 or newer.
+deb [signed-by=/etc/apt/keyrings/mopidy-archive-keyring.gpg] https://apt.mopidy.com/ bookworm main contrib non-free
+deb-src [signed-by=/etc/apt/keyrings/mopidy-archive-keyring.gpg] https://apt.mopidy.com/ bookworm main contrib non-free
