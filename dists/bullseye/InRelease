@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: Mopidy
 Suite: oldstable
 Codename: bullseye
-Date: Sun, 29 Oct 2023 21:30:11 UTC
+Date: Sun, 29 Oct 2023 21:31:21 UTC
 Architectures: i386 amd64 armel armhf arm64
 Components: main non-free contrib
 MD5Sum:
@@ -174,17 +174,17 @@ SHA256:
  6d9f7bfe5e66b6381d0e0767c15cfe70b1b667190b664c25abc1519e67f6128c 74 contrib/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEnjZGSnwDCUXut2MoeP2YDicdKUMFAmU+zuMACgkQeP2YDicd
-KUOtQw//U4l3xHO9nCxfI2FulozHLdfsIKtbLC1HbuvwHPzXYegdpfJdb5EQuiLr
-8mOcztojimy8ITqFiAT8idCNjm48REf84iTFc8lWtRDWjPiSPTELtQEXkQF2/mgN
-n/1FntSmSf/XvXlAHaYMAaW8Cg9YrNTmGq762HDiAK/kGV2zrj0gaUTJ8aRvWWHs
-3VuqIX9e9gGQATWt4JLy2I2TJmk51PVANUd60/UBy1BwnWYkSN1ownNc8XKLwg7I
-0lKVonfHAt3dxa7qh7GsU2EPZuluTCy8f5CrWTblKvK234kutL2+wX2nVwPEyZd9
-S95Ljdbv5VH6YDA6i/ocBWLlaZg0qSO1T++2vOnqqq1E+j/i8wqV464g6X6uInwc
-mhcP09oOr2oClCR40VZsNquHyb8EwHXYaFNOlsnM9mOcfqFg3VqvBEpgUHXsvVnu
-/L5KtUhJKn6+sbfq+Lr0i9jy/xnLt/vgMwOcGyw1hDiw9AJ5mNPr+xJUCSn96fQD
-fqs0hhnhcfx0dXvTk1p9LhVX0+IkyklkUMnqYQdfKJqG8q8gvKLkHaawFB4fHOP6
-xgnnlQ/M+5ubEazfaq2GqkBU9lt7Y9VqeaqCVn3ZTZC93B8FFCg/Mxos8ctbLbsc
-Pv1flD1H7vi45Us59YbIhD9Vs4fjyr3WMMsCf482TLO4sISt2sw=
-=NEGd
+iQIzBAEBCgAdFiEEnjZGSnwDCUXut2MoeP2YDicdKUMFAmU+zykACgkQeP2YDicd
+KUMOPQ/5AZtvKx9UzJWrcKa44/RIKGoMUnnT8BODqSXmsh/2yPpJR1N1RKQd36E/
+iv8TFuXPWhw35t1SqHM/9Ct6MfU5RAvvENT8ped0nBfZgyLmMqFJpb6pBjKgZ4Kn
+tyc+tqzhIkLciDh2R4Bygc5XBNoBSxDyd8BQovB0uUl3fDPpudtPnmkC5VZHn0eK
+2RSOcjRn/S1L4hnoatJyC+dipEw1rFQYVeRnBk9pH6YirEbOAtEa87ciqIUzgTjC
+39JbyxaIX9/XF6oSGSzPWeC4vKcfC4d4IKeSN7rKP7LFyoxPcQOZrOyBNU2oqRDT
+tv3nNRdmZF48ZbQ0zIlnGwC++xWgCjX7cKKn9pALEcCpeiieDVc+BMnBpXNahdb0
+8+jKAc4nwWaS432WMnR/l9CfToki9hA6p1M3YboTGtTmIhHr3oxvtG7ojjDTQqz/
+48sAIf7/AbwRoTeGrIFRkVo6qeBz+eftyHd5YESDFs78+uW/BISS78LK41GSiIcz
+/f25cNX0XHilRM/Tc/tVoxk3bb9fH39hej7YnQKSnDMfe9fPU/4IGJ9p9gjcazBO
+S44aVby+Pm3QUBJYG5eLljrW/mnwHLzcUQE5GbxCZ3ExUY91KyRBrZ0qwJ/S3Bt0
+Bm587jioX4BkGShFO6lqK1YPz/xj4lRMzm4wklpbofKdMunuktk=
+=cJtz
 -----END PGP SIGNATURE-----
