@@ -1,3 +1,9 @@
+Name: bullseye
+IncomingDir: incoming/bullseye/
+TempDir: incoming/temp/
+Allow: unstable>bullseye
+Cleanup: unused_buildinfo_files
+
 Name: bookworm
 IncomingDir: incoming/bookworm/
 TempDir: incoming/temp/
