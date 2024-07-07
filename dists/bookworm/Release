@@ -1,7 +1,7 @@
 Origin: Mopidy
 Suite: stable
 Codename: bookworm
-Date: Sat, 06 Jul 2024 22:30:50 UTC
+Date: Sun, 07 Jul 2024 08:48:51 UTC
 Architectures: i386 amd64 armel armhf arm64
 Components: main non-free contrib
 MD5Sum:
@@ -20,8 +20,8 @@ MD5Sum:
  ecb08e7277e22292c00c9a59a3ff4d13 15798 main/binary-arm64/Packages
  14c03c672f36394404296baca8586817 3868 main/binary-arm64/Packages.gz
  a8bddf2d4c2ba838c8b8f3c784f08ae4 67 main/binary-arm64/Release
- 7d91d91476ce72127a31785330f1d0e3 21311 main/source/Sources
- 1fa212ed0b8a924d598b62865f791306 5799 main/source/Sources.gz
+ e5b68f64920b6a89d4154e3b685278fd 19779 main/source/Sources
+ 29dda9b9555afc95959d622afda0a40d 5345 main/source/Sources.gz
  e2f03155d0166f7055d18f3d44f1c57d 68 main/source/Release
  d41d8cd98f00b204e9800998ecf8427e 0 non-free/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 non-free/binary-i386/Packages.gz
@@ -75,8 +75,8 @@ SHA1:
  d02591dca358c513840e0ed147e9cb5100e97bf7 15798 main/binary-arm64/Packages
  2e5ee6d3f816af78d7001a63d8b91d75552c0b68 3868 main/binary-arm64/Packages.gz
  a87791e8f15e16de38cc096f7e729cf4cb9e32ee 67 main/binary-arm64/Release
- fd03a47979e30f89ff15dedc978074da3103c162 21311 main/source/Sources
- 9b1fa069497b082fca3c7615d0213e0f7b4d4a0c 5799 main/source/Sources.gz
+ 5185b04a46a1a8656656353b7706123a4aa62a31 19779 main/source/Sources
+ 6968a0cb550d1fb25e86201a83edc06731bcd814 5345 main/source/Sources.gz
  c9f25c557b7924918c44f059abb938b81f64544f 68 main/source/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 non-free/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/binary-i386/Packages.gz
@@ -130,8 +130,8 @@ SHA256:
  44968cd537987a5f124f877c6170df3ae984e3fab14e8e0e974c73aad0c74c93 15798 main/binary-arm64/Packages
  ec1a651c1c28282399d4abdb0446d02e91db89e9fb9c4980eb03b0c84ee665fd 3868 main/binary-arm64/Packages.gz
  2ee73521cb4092f2c077fb8e120f512819a2bb23597917fee9119df6f787a6e2 67 main/binary-arm64/Release
- 4bc97ae5caa62b9d6e6fc7961f65a5a2bfd669a219f1810f75f3066882abdfe1 21311 main/source/Sources
- b3f286cec06168193ba7475533b33efa31b82da3112280ea95bc003dba54c9f5 5799 main/source/Sources.gz
+ cb2697bd037b537dc0c6b98694bc1a36c8d3fe7b313f8d9dac5a69ed658dce18 19779 main/source/Sources
+ a9a44cdd63d42f966d50f21b9391dd0676e0ca1b316c800db8a148fea1b2de30 5345 main/source/Sources.gz
  9029fe3760011ed33e30a046afb786712a219eb2a0960ff4d1a4c85d43a4b337 68 main/source/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 non-free/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free/binary-i386/Packages.gz
