@@ -344,24 +344,3 @@ Description: Mopidy extension for playing music from TuneIn
  This package provides a Mopidy extension for playing music from TuneIn's
  directory of thousands of radio stations from all over the world.
 
-Package: python3-pykka
-Source: python-pykka
-Version: 2.0.3-1
-Architecture: all
-Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 972
-Depends: python3-pkg-resources, python3:any, libjs-sphinxdoc (>= 1.0), sphinx-rtd-theme-common (>= 0.4.3+dfsg)
-Homepage: https://www.pykka.org/
-Priority: optional
-Section: python
-Filename: pool/main/p/python-pykka/python3-pykka_2.0.3-1_all.deb
-Size: 95176
-SHA256: 0392477a2106304c7650b3a340328b18472a3cdf569a6c8cfec71e7167cabb9b
-SHA1: 566d82b3b8410e2971cb3380416583a7af5ceee3
-MD5sum: ff70f56237d2089e58a2dcbe0946f9ed
-Description: Actor model library (Python 3)
- Pykka is a Python implementation of the actor model. The actor model
- introduces some simple rules to control the sharing of state and cooperation
- between execution units, which makes it easier to build concurrent
- applications.
-
