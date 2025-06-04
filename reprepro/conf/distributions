@@ -3,7 +3,7 @@ Suite: oldstable
 Codename: bullseye
 Architectures: i386 amd64 armel armhf arm64 source
 Components: main non-free contrib
-SignWith: 271D2943
+SignWith: 9E36464A7C030945EEB7632878FD980E271D2943
 Tracking: minimal
 
 Origin: Mopidy
@@ -11,5 +11,5 @@ Suite: stable
 Codename: bookworm
 Architectures: i386 amd64 armel armhf arm64 source
 Components: main non-free contrib
-SignWith: 271D2943
+SignWith: 9E36464A7C030945EEB7632878FD980E271D2943
 Tracking: minimal
