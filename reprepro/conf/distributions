@@ -13,3 +13,11 @@ Architectures: i386 amd64 armel armhf arm64 source
 Components: main non-free contrib
 SignWith: 9E36464A7C030945EEB7632878FD980E271D2943
 Tracking: minimal
+
+Origin: Mopidy
+Suite: testing
+Codename: trixie
+Architectures: i386 amd64 armel armhf arm64 riscv64 source
+Components: main non-free contrib
+SignWith: 9E36464A7C030945EEB7632878FD980E271D2943
+Tracking: minimal

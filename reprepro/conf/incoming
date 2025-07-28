@@ -9,3 +9,9 @@ IncomingDir: incoming/bookworm/
 TempDir: incoming/temp/
 Allow: unstable>bookworm
 Cleanup: unused_buildinfo_files
+
+Name: trixie
+IncomingDir: incoming/trixie/
+TempDir: incoming/temp/
+Allow: unstable>trixie
+Cleanup: unused_buildinfo_files
