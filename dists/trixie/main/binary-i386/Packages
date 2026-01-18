@@ -138,19 +138,19 @@ Description: Mopidy extension for playing music from the Internet Archive
  Archive.
 
 Package: mopidy-local
-Version: 3.2.1-1
+Version: 3.3.0-1
 Architecture: all
-Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 125
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 131
 Depends: mopidy (>= 3.0.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3-uritools, python3:any
 Homepage: https://mopidy.com/
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy-local/mopidy-local_3.2.1-1_all.deb
-Size: 22412
-SHA256: 52919e45f6cc3164b1008b70ce658aa311f56c4c727e250c5276e14c377889f6
-SHA1: 90ba728663a582a2ccbbd93e816df4f4809bff63
-MD5sum: a90fa917fb147c32e365e0cd09d729d6
+Filename: pool/main/m/mopidy-local/mopidy-local_3.3.0-1_all.deb
+Size: 25008
+SHA256: 828e1508bb2aa8f82219a81408efecf3d89eee2972b72e34decba431e8aec9b7
+SHA1: 19ccceee620df8d1402a940df2965778dc428da9
+MD5sum: ee601ebffa9c66deba174e5bb8e62c7a
 Description: Mopidy extension for playing music from your local music archive
  Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
  and more. You can edit the playlist from any phone, tablet, or computer using
