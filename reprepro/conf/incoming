@@ -7,11 +7,11 @@ Cleanup: unused_buildinfo_files
 Name: bookworm
 IncomingDir: incoming/bookworm/
 TempDir: incoming/temp/
-Allow: unstable>bookworm
+Allow: bookworm unstable>bookworm
 Cleanup: unused_buildinfo_files
 
 Name: trixie
 IncomingDir: incoming/trixie/
 TempDir: incoming/temp/
-Allow: unstable>trixie
+Allow: trixie bookworm>trixie unstable>trixie
 Cleanup: unused_buildinfo_files

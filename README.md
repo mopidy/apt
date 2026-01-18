@@ -27,7 +27,7 @@ See the docs on [Testing your GitHub Pages site locally with Jekyll][1].
 ## Adding or updating packages
 
 1. Build the package in a clean environment for the proper dist, for example
-   using a tool like pbuilder.
+   using a tool like `sbuild -d bookworm *.dsc`.
 
 2. Copy the build result (`*.deb`, `*.buildinfo`, `*.changes`, `*.dsc`, orig
    and debian tarballs) to this repo in the `reprepro/incoming/$dist/`
