@@ -374,25 +374,3 @@ Description: Mopidy extension for playing music from SoundCloud
  This extension plays music from the SoundCloud service. You need a SoundCloud
  account.
 
-Package: mopidy-tunein
-Version: 1.1.0-1
-Architecture: all
-Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 57
-Depends: mopidy (>= 3.0.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3-requests, python3:any
-Homepage: https://github.com/kingosticks/mopidy-tunein
-Priority: optional
-Section: sound
-Filename: pool/main/m/mopidy-tunein/mopidy-tunein_1.1.0-1_all.deb
-Size: 11796
-SHA256: 3ec460c6ed7675e2cd1cba8c12d72bf0a072c2fddf176bd82f6b66718ac33bc3
-SHA1: 1dd838491d1ce534d634726265da12bc5dfafb69
-MD5sum: b9d192888e77e71ee14383131d58d480
-Description: Mopidy extension for playing music from TuneIn
- Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
- and more. You can edit the playlist from any phone, tablet, or computer using
- a variety of MPD and web clients.
- .
- This package provides a Mopidy extension for playing music from TuneIn's
- directory of thousands of radio stations from all over the world.
-
