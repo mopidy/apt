@@ -354,27 +354,25 @@ Description: Mopidy extension for playing music from SomaFM
  This extension plays the radio channels of SomaFM.
 
 Package: mopidy-soundcloud
-Version: 3.0.2-1
+Version: 4.0.0-1
 Architecture: all
-Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 57
-Depends: mopidy (>= 3.0.0), python3-bs4, python3-pkg-resources, python3-pykka (>= 2.0.1), python3-requests, python3:any
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 59
+Depends: mopidy (>= 4.0.0), python3-bs4, python3-pykka (>= 4.1), python3-requests, python3:any
 Homepage: https://github.com/mopidy/mopidy-soundcloud
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy-soundcloud/mopidy-soundcloud_3.0.2-1_all.deb
-Size: 12000
-SHA256: 454cbde8f7b2814e83fb96bffaedace50e21bf84e30769cc652c37e29600f0be
-SHA1: 51673602f28def7108e31f95ffc8e66a5779586f
-MD5sum: 6399acbe99fa8bc69e3e943827a6e0d3
+Filename: pool/main/m/mopidy-soundcloud/mopidy-soundcloud_4.0.0-1_all.deb
+Size: 12292
+SHA256: 2822d6a47a85f17295ab40f32b3dd88922bc52896d1687092301fbfd8c0ff7b0
+SHA1: a00dd59eb647e6e2fd52c6af643813bb74382faa
+MD5sum: 9f8634d2c0048f98696a04b53b72afc0
 Description: Mopidy extension for playing music from SoundCloud
- Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
- and more. You can edit the playlist from any phone, tablet, or computer using
- a variety of MPD and web clients.
+ Mopidy is a music server. It plays audio files, playlists, and internet radio
+ streams, and extensions add more music sources and frontends.
  .
- This package provides a Mopidy extension for playing music from the SoundCloud
- music streaming service. A free SoundCloud user account is required to make
- use of this package.
+ This extension plays music from the SoundCloud service. You need a SoundCloud
+ account.
 
 Package: mopidy-tunein
 Version: 1.1.0-1
