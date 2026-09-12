@@ -93,26 +93,24 @@ Description: Mopidy extension for playing music from Digital Media Servers
  dLeyna D-Bus interface.
 
 Package: mopidy-internetarchive
-Version: 3.0.1-1
+Version: 4.0.1-1
 Architecture: all
-Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 57
-Depends: mopidy (>= 3.0.0), python3-cachetools, python3-pkg-resources, python3-pykka (>= 2.0.1), python3-requests, python3-uritools, python3:any
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 60
+Depends: mopidy (>= 4.0.0), python3-cachetools, python3-pykka (>= 4.1), python3-requests, python3-uritools, python3:any
 Homepage: https://github.com/tkem/mopidy-internetarchive
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy-internetarchive/mopidy-internetarchive_3.0.1-1_all.deb
-Size: 11988
-SHA256: 67f729713e138d172feab2e880d7e5b2e103398dc062d29956dd0196498e431b
-SHA1: 5abaa6ae141a7569604547d657b4fc75c6448078
-MD5sum: 0fd4fa78deefedc43be5aed6bfdea7c3
+Filename: pool/main/m/mopidy-internetarchive/mopidy-internetarchive_4.0.1-1_all.deb
+Size: 12484
+SHA256: e3d35a492c0d1f66a02341669f99251498a61ca05d7e41b654654d209518424a
+SHA1: cd462e781d0e8630fe2ee96b8918dc5a624cd2f3
+MD5sum: ca8d406997ae4fedf121ffc6f4c0772b
 Description: Mopidy extension for playing music from the Internet Archive
- Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
- and more. You can edit the playlist from any phone, tablet, or computer using
- a variety of MPD and web clients.
+ Mopidy is a music server. It plays audio files, playlists, and internet radio
+ streams, and extensions add more music sources and frontends.
  .
- This package provides a Mopidy extension for playing music from the Internet
- Archive.
+ This extension plays music from the Internet Archive.
 
 Package: mopidy-local
 Version: 4.0.1-1
