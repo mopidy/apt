@@ -162,27 +162,26 @@ Description: Mopidy extension for playing music from Beets' web plugin
  organizer.
 
 Package: mopidy-dleyna
-Version: 2.0.2-1
+Version: 3.0.0-1
 Architecture: all
-Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 164
-Depends: dleyna-server, python3-dbus, mopidy (>= 3.0.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3-uritools, python3:any, libjs-sphinxdoc (>= 1.0)
-Built-Using: sphinx (= 1.8.4-1)
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 129
+Depends: dleyna-server, python3-dbus, mopidy (>= 4.0.0), python3-pykka (>= 4.1), python3-uritools, python3:any, libjs-sphinxdoc (>= 8.1)
+Built-Using: sphinx (= 8.1.3-5)
 Homepage: https://github.com/tkem/mopidy-dleyna
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy-dleyna/mopidy-dleyna_2.0.2-1_all.deb
-Size: 35424
-SHA256: 06d8516f222cf5e757804ad4650fa6507dcd8f737a893b96dc65ca1aa22bd626
-SHA1: 4c6f4a6b9921c17fa5d3c2a8b880db2ca5439c0e
-MD5sum: c6d48974f2b305d0c8a78ba37fbedf2a
+Filename: pool/main/m/mopidy-dleyna/mopidy-dleyna_3.0.0-1_all.deb
+Size: 23908
+SHA256: 2c4256730bbcedf3157d9a3e94d231905bd08965677e6c108146ba91034a1e15
+SHA1: 3defc6b7a7306d6192d0d286cd3481c26dae2757
+MD5sum: 4700436398fcf6eee529a8e1bfb7e08f
 Description: Mopidy extension for playing music from Digital Media Servers
- Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
- and more. You can edit the playlist from any phone, tablet, or computer using
- a variety of MPD and web clients.
+ Mopidy is a music server. It plays audio files, playlists, and internet radio
+ streams, and extensions add more music sources and frontends.
  .
- This package provides a Mopidy extension for playing music from DLNA Digital
- Media Servers using the dLeyna D-Bus interface.
+ This extension plays music from DLNA Digital Media Servers through the
+ dLeyna D-Bus interface.
 
 Package: mopidy-internetarchive
 Version: 3.0.1-1
