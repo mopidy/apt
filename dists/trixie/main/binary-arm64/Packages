@@ -90,29 +90,33 @@ Description: GStreamer Spotify Plugin
  ```
 
 Package: mopidy
-Version: 3.4.2-2
+Version: 4.0.3-1
 Architecture: all
-Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 508
-Depends: adduser, debconf, gir1.2-gst-plugins-base-1.0, gir1.2-gstreamer-1.0, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, python3-gst-1.0, python3-tornado (>= 4.4), debconf (>= 0.5) | debconf-2.0, python3-pkg-resources, python3-pykka (>= 2.0.1), python3-requests, python3:any
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 531
+Depends: debconf, gir1.2-gst-plugins-base-1.0, gir1.2-gstreamer-1.0, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, python3-gst-1.0, debconf (>= 0.5) | debconf-2.0, systemd | systemd-standalone-sysusers | systemd-sysusers, python3-cyclopts, python3-gi, python3-httpx, python3-platformdirs, python3-pydantic, python3-pykka, python3-rich, python3-tornado, python3:any
 Recommends: gstreamer1.0-alsa, gstreamer1.0-pulseaudio, gstreamer1.0-tools
-Suggests: mopidy-doc
 Homepage: https://mopidy.com/
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy/mopidy_3.4.2-2_all.deb
-Size: 108864
-SHA256: d06bc353c438e7d920197dc9a63d33c025ba72ecff4aa7bee9614f54c5a5213b
-SHA1: 31f1d86af0ad5b5ff71bf1b0beec7356eff727a5
-MD5sum: afc1bca2477a5c06fc2ee710cd489ade
+Filename: pool/main/m/mopidy/mopidy_4.0.3-1_all.deb
+Size: 106992
+SHA256: 095c30a9a2023be7051a5e3eaa6c4a1470ee3eb63846cfa359d0fd48d40a9589
+SHA1: 7890b17686ad7c2b99e4044b8bbbb1bdfa281c1e
+MD5sum: e46c0c69aa8e2f072a2ce7ec0fb69e1e
 Description: extensible music server
- Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
- and more. You can edit the playlist from any phone, tablet, or computer using
- a variety of MPD and web clients.
+ Mopidy is a music server. It runs in the background, or in a terminal, and
+ plays audio through the sound hardware of the machine it runs on. Out of the
+ box, it plays audio files, playlists, and internet radio streams.
  .
- Vanilla Mopidy only plays music from files and radio streams. Through
- extensions, Mopidy can play music from cloud services like Spotify,
- SoundCloud, and Google Play Music.
+ Mopidy is also an HTTP server, so you can control it from a web browser.
+ Extensions add other frontends, such as an MPD server, which gives access to
+ the many MPD clients. More than one person can connect at the same time,
+ search for music, and build the play queue together.
+ .
+ Extensions also add music sources, such as cloud music services, and mixers
+ that control the volume. Mopidy has Python, JSON-RPC, and JavaScript APIs, so
+ you can write your own extension or client.
 
 Package: mopidy-alsamixer
 Version: 2.0.1-1
@@ -180,31 +184,6 @@ Description: Mopidy extension for playing music from Digital Media Servers
  .
  This package provides a Mopidy extension for playing music from DLNA Digital
  Media Servers using the dLeyna D-Bus interface.
-
-Package: mopidy-doc
-Source: mopidy
-Version: 3.4.2-2
-Architecture: all
-Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 3477
-Depends: libjs-sphinxdoc (>= 2.4.3-5~), sphinx-rtd-theme-common (>= 0.5.1+dfsg)
-Recommends: mopidy
-Replaces: mopidy (<< 0.7.3-2)
-Built-Using: sphinx (= 3.4.3-2)
-Homepage: https://mopidy.com/
-Priority: optional
-Section: doc
-Filename: pool/main/m/mopidy/mopidy-doc_3.4.2-2_all.deb
-Size: 508420
-SHA256: 06db1d8390189302c36fa4b9477164b5772d1281e954636de43b93746af84b1a
-SHA1: 14f294f2b3f4a4358859511437cd990b06dbe07b
-MD5sum: a12179b6a6e44e0643d9ac43a054d193
-Description: extensible music server - documentation
- Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
- and more. You can edit the playlist from any phone, tablet, or computer using
- a variety of MPD and web clients.
- .
- This package provides the documentation for Mopidy.
 
 Package: mopidy-internetarchive
 Version: 3.0.1-1
