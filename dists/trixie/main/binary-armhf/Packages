@@ -374,3 +374,26 @@ Description: Mopidy extension for playing music from SoundCloud
  This extension plays music from the SoundCloud service. You need a SoundCloud
  account.
 
+Package: mopidy-spotify
+Version: 5.0.1-0mopidy1
+Architecture: all
+Maintainer: Stein Magnus Jodal <jodal@debian.org>
+Installed-Size: 117
+Depends: gst-plugin-spotify, mopidy (>= 4.0.0), python3-pykka (>= 4.1), python3-requests, python3:any
+Homepage: https://mopidy.com/
+Priority: optional
+Section: sound
+Filename: pool/main/m/mopidy-spotify/mopidy-spotify_5.0.1-0mopidy1_all.deb
+Size: 25372
+SHA256: b2c35996e794d2a27ebabe04eb4fd754917b08f20bde3020c2ebe19f05092d5b
+SHA1: 76c69ad458c40965838300db239ef3f3f3548b5a
+MD5sum: 4b200ce71ff362f7256fbf6da0f4d774
+Description: Mopidy extension for playing music from Spotify
+ Mopidy is a music server. It plays audio files, playlists, and internet radio
+ streams, and extensions add more music sources and frontends.
+ .
+ This extension plays music from the Spotify service. It can also search
+ Spotify, and read your playlists, your top lists and your saved music. You
+ need a Spotify Premium account. The audio playback needs the
+ gst-plugin-spotify GStreamer plugin, which is not part of Debian.
+
