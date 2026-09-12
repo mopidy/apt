@@ -243,26 +243,24 @@ Description: Mopidy extension for scrobbling music to Last.fm
  service. You need a Last.fm account.
 
 Package: mopidy-somafm
-Version: 2.0.2-1
+Version: 2.1.0-1
 Architecture: all
-Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 41
-Depends: mopidy (>= 3.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3-requests, python3:any
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 45
+Depends: mopidy (>= 4.0.0), python3-pykka (>= 4.1), python3:any
 Homepage: https://github.com/AlexandrePTJ/mopidy-somafm
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy-somafm/mopidy-somafm_2.0.2-1_all.deb
-Size: 8844
-SHA256: 9b35e6b79ff4db264d9ed4ec69b88d42f78c6f747636c77d5e4699bf26c4dae0
-SHA1: 3a10285f722bd2a41fccf6c5c4a93a998a360389
-MD5sum: adce9177429a23629f1921343407c97f
+Filename: pool/main/m/mopidy-somafm/mopidy-somafm_2.1.0-1_all.deb
+Size: 9544
+SHA256: fcc0c9c868538d0df43b3ad01247628a8bbb8b06b74e12cc14ab503087d2b711
+SHA1: 1bc07dacb702f62457f6a4032a1fa7ae57eb085e
+MD5sum: 6dbc7c068bd4663a117c48c560499ebb
 Description: Mopidy extension for playing music from SomaFM
- Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
- and more. You can edit the playlist from any phone, tablet, or computer using
- a variety of MPD and web clients.
+ Mopidy is a music server. It plays audio files, playlists, and internet radio
+ streams, and extensions add more music sources and frontends.
  .
- This package provides a Mopidy extension for playing music from the SomaFM
- music streaming service.
+ This extension plays the radio channels of SomaFM.
 
 Package: mopidy-soundcloud
 Version: 3.0.2-1
