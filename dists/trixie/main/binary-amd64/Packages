@@ -140,27 +140,26 @@ Description: Mopidy extension for volume control via ALSA
  then changes, instead of the volume inside Mopidy.
 
 Package: mopidy-beets
-Version: 4.0.1-1
+Version: 5.0.0-1
 Architecture: all
-Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 64
-Depends: mopidy (>= 3.0.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3-requests, python3:any
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 68
+Depends: mopidy (>= 4.0.0), python3-pykka (>= 4.1), python3-requests, python3:any
 Suggests: beets
 Homepage: https://github.com/mopidy/mopidy-beets
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy-beets/mopidy-beets_4.0.1-1_all.deb
-Size: 13908
-SHA256: 005a9eb7c6a39e71a110d33018d262702cd5d9ba747d5690010dc2a518d79619
-SHA1: 92104c80680f512124a89277b82c3f6d5ed02e90
-MD5sum: 5908ee068c09ffdd7299ea215ff2b3f9
+Filename: pool/main/m/mopidy-beets/mopidy-beets_5.0.0-1_all.deb
+Size: 16364
+SHA256: 81d99e95aed09d982f2e91cd849d097619efa146d38e3edd27a7feecdc2a520a
+SHA1: fbde0b452619f324cdbb1fe0f9330972ba4d8a06
+MD5sum: ce4ed9203b78fde0ca66de2d0101ec94
 Description: Mopidy extension for playing music from Beets' web plugin
- Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
- and more. You can edit the playlist from any phone, tablet, or computer using
- a variety of MPD and web clients.
+ Mopidy is a music server. It plays audio files, playlists, and internet radio
+ streams, and extensions add more music sources and frontends.
  .
- This package provides a Mopidy extension for playing music from the web
- plugin of the Beets music library organizer.
+ This extension plays music from the web plugin of the Beets music library
+ organizer.
 
 Package: mopidy-dleyna
 Version: 2.0.2-1
