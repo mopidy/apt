@@ -293,26 +293,24 @@ Description: Mopidy extension for searching and browsing podcasts
  one level.
 
 Package: mopidy-podcast-itunes
-Version: 3.0.1-1
+Version: 4.0.0-1
 Architecture: all
-Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 50
-Depends: mopidy (>= 3.0.0), mopidy-podcast (>= 3.0.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3-requests, python3:any
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 51
+Depends: mopidy (>= 4.0.0), mopidy-podcast (>= 4.0.0), python3-pykka (>= 4.1), python3-requests, python3:any
 Homepage: https://github.com/tkem/mopidy-podcast-itunes
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy-podcast-itunes/mopidy-podcast-itunes_3.0.1-1_all.deb
-Size: 10160
-SHA256: 4544bb0fe71ecaab5e9b472ac50b2259d576b9170f6ffd2febf153eea10e3a63
-SHA1: b9fe3493bcdb407c28a63320900acb4e4415621f
-MD5sum: c6ec630da7ac1aa707284d4f5c81bb87
+Filename: pool/main/m/mopidy-podcast-itunes/mopidy-podcast-itunes_4.0.0-1_all.deb
+Size: 10324
+SHA256: 1b6b4617e3cf4f6178f6412d4ebc6d9c98371fb88b3e6eb23dc97b87e92119cd
+SHA1: 27bdc9e32612c4e24b80cb3a5dd0ed16c3a55b8e
+MD5sum: 314579405ebcecd29bfe53727e73071e
 Description: Mopidy extension for searching and browsing iTunes podcasts
- Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
- and more. You can edit the playlist from any phone, tablet, or computer using
- a variety of MPD and web clients.
+ Mopidy is a music server. It plays audio files, playlists, and internet radio
+ streams, and extensions add more music sources and frontends.
  .
- This package provides a Mopidy extension for searching and browsing podcasts
- on Apple iTunes Store.
+ This extension searches and browses the podcasts of the Apple iTunes Store.
 
 Package: mopidy-scrobbler
 Version: 2.0.1-1
