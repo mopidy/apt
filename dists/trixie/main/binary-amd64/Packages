@@ -119,25 +119,25 @@ Description: extensible music server
  you can write your own extension or client.
 
 Package: mopidy-alsamixer
-Version: 2.0.1-1
+Version: 3.0.0-1
 Architecture: all
-Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 39
-Depends: python3-alsaaudio, mopidy (>= 3.0.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3:any
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 43
+Depends: python3-alsaaudio, mopidy (>= 4.0.0), python3-gi, python3-pykka (>= 4.1), python3:any
 Homepage: https://mopidy.com/
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy-alsamixer/mopidy-alsamixer_2.0.1-1_all.deb
-Size: 7632
-SHA256: 731c4698c0cb4a5eb95e581888e4a2c196e1bf11e3bd77e553ea2ec510cc960f
-SHA1: 02b19ecac2e78af5d98fcd0c944ec9e35010864b
-MD5sum: 36bbbc2812e42cd93c5195b1d43a1c2e
+Filename: pool/main/m/mopidy-alsamixer/mopidy-alsamixer_3.0.0-1_all.deb
+Size: 10448
+SHA256: 37f27a21ab97cb4dd565ddea7b1e050b8a8f7a6ec3f35419e194c46304e38fdf
+SHA1: 7e66cdc85c889a955c487a6000b4447623eba22c
+MD5sum: 3f91b055c531867462ea4763ebddc606
 Description: Mopidy extension for volume control via ALSA
- Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
- and more. You can edit the playlist from any phone, tablet, or computer using
- a variety of MPD and web clients.
+ Mopidy is a music server. It plays audio files, playlists, and internet radio
+ streams, and extensions add more music sources and frontends.
  .
- This package provides a Mopidy extension for controlling volume through ALSA.
+ This extension controls the volume with ALSA. The volume of the sound card
+ then changes, instead of the volume inside Mopidy.
 
 Package: mopidy-beets
 Version: 4.0.1-1
