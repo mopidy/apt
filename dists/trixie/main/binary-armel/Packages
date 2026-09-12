@@ -140,26 +140,25 @@ Description: Mopidy extension for playing music from your local music archive
  of time, and can thus provide features like search.
 
 Package: mopidy-mpd
-Version: 3.3.0-1
+Version: 4.0.1-1
 Architecture: all
-Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 183
-Depends: mopidy (>= 3.3.0), python3-pkg-resources, python3-pykka (>= 2.0.1), python3:any
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 201
+Depends: mopidy (>= 4.0.0), python3-gi, python3-pykka (>= 4.1), python3:any
 Homepage: https://mopidy.com/
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy-mpd/mopidy-mpd_3.3.0-1_all.deb
-Size: 38424
-SHA256: cf8b924ba5f98aab34b97c19125e68fa7b0bf7f4e429f61f9770d9e0ff0d2c05
-SHA1: e13e0df058aca21af524b3e650c923ffd4f6305c
-MD5sum: 455499d8365741b3ac42a85007ef2bce
+Filename: pool/main/m/mopidy-mpd/mopidy-mpd_4.0.1-1_all.deb
+Size: 42132
+SHA256: 872645a85d77023a987af56a0c008b3227ccbb6e1045b9fe26278874f351e9cc
+SHA1: 39c7cb335b027c4006f8a00030b0668890bd40ac
+MD5sum: c6fc2d36170019ecbbf865d3dada617b
 Description: Mopidy extension for controlling Mopidy from MPD clients
- Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
- and more. You can edit the playlist from any phone, tablet, or computer using
- a variety of MPD and web clients.
+ Mopidy is a music server. It plays audio files, playlists, and internet radio
+ streams, and extensions add more music sources and frontends.
  .
- This package provides a Mopidy extension for controlling Mopidy from MPD
- clients.
+ This extension makes Mopidy an MPD server. You can then control it from the
+ many MPD clients, on a phone, tablet, or computer.
 
 Package: mopidy-mpris
 Version: 3.0.3-1
