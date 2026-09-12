@@ -1,17 +1,17 @@
 Package: gst-plugin-spotify
-Version: 0.15.0-alpha.1+spotify-logging.3aab047-0mopidy1
+Version: 0.16.0-alpha+spotify-logging.b9abdbc-0mopidy1
 Architecture: armhf
 Homepage: https://gitlab.freedesktop.org/gstreamer/gst-plugins-rs
 Maintainer: Nick Steel <nick@nsteel.co.uk>
-Installed-Size: 6347
+Installed-Size: 6316
 Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.38.0), libgstreamer1.0-0 (>= 1.14.0)
 Priority: optional
 Section: libs
-Filename: pool/main/g/gst-plugin-spotify/gst-plugin-spotify_0.15.0-alpha.1+spotify-logging.3aab047-0mopidy1_armhf.deb
-Size: 2182308
-SHA256: 04310fb569f0e1e187823c655c68899392e5e6252b7620bc79364c0965a2b6e5
-SHA1: 5ce07999c95a4b078029c6f2bafb5af05222a8ab
-MD5sum: dcb54597b5a0078348c21caab66774ff
+Filename: pool/main/g/gst-plugin-spotify/gst-plugin-spotify_0.16.0-alpha+spotify-logging.b9abdbc-0mopidy1_armhf.deb
+Size: 2188300
+SHA256: 976b3dfaca02a86f29d15dd24fc1979ab9a706ca5d066f3b2a92004197132648
+SHA1: ef2981370243bf179c4f911d175e4e6babb9d196
+MD5sum: 602aee3e42a7899bfbd00c5333672074
 Description: GStreamer Spotify Plugin
  # gst-plugins-spotify
  .
