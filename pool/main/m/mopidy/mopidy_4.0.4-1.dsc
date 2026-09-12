@@ -2,7 +2,7 @@ Format: 3.0 (quilt)
 Source: mopidy
 Binary: mopidy
 Architecture: all
-Version: 4.0.3-1
+Version: 4.0.4-1
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Uploaders:  Stein Magnus Jodal <jodal@debian.org>, MichaIng <micha@dietpi.com>,
 Homepage: https://mopidy.com/
@@ -14,11 +14,11 @@ Build-Depends: debhelper-compat (= 13), dh-sequence-cruft, dh-sequence-installsy
 Package-List:
  mopidy deb sound optional arch=all
 Checksums-Sha1:
- 88d76b92be25b2253f0993b24ae80cf2675ef4a1 522161 mopidy_4.0.3.orig.tar.gz
- 31a6352859d875072a01614833fc8fb802c12979 20972 mopidy_4.0.3-1.debian.tar.xz
+ 61319450c32113e24639af513a30fc64ce5f9a39 522639 mopidy_4.0.4.orig.tar.gz
+ 73cb632fa08a07c1cd8a246424921a2e956b0dfb 20492 mopidy_4.0.4-1.debian.tar.xz
 Checksums-Sha256:
- 1245d627cf69da968cd42473ca4b0a2edadfb76e8f74f4128f483edc3f28b4ae 522161 mopidy_4.0.3.orig.tar.gz
- d168cf17d8af81f943159bf87eada3a3923901ab779c73a7ef1c6484fbf96c6e 20972 mopidy_4.0.3-1.debian.tar.xz
+ cdceb64e1574d708396bf8ee9f71460df3614dbb9c6aee36b24e23b90492501f 522639 mopidy_4.0.4.orig.tar.gz
+ bf8fbc2fdf5442605ea2c6e91741c7447801bafb801c6c7e61a912478a9ae64c 20492 mopidy_4.0.4-1.debian.tar.xz
 Files:
- 324e1c89316fdefbcfb3e4fd8aaad246 522161 mopidy_4.0.3.orig.tar.gz
- 85a9cbf4ca9f8ba015969d1d2e094f54 20972 mopidy_4.0.3-1.debian.tar.xz
+ 2a0f5c0964ec64c62cc295e4648a95d0 522639 mopidy_4.0.4.orig.tar.gz
+ 89ba286ab3559b7e870366028eafcc9a 20492 mopidy_4.0.4-1.debian.tar.xz

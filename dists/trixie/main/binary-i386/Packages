@@ -1,5 +1,5 @@
 Package: mopidy
-Version: 4.0.3-1
+Version: 4.0.4-1
 Architecture: all
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Installed-Size: 531
@@ -8,11 +8,11 @@ Recommends: gstreamer1.0-alsa, gstreamer1.0-pulseaudio, gstreamer1.0-tools
 Homepage: https://mopidy.com/
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy/mopidy_4.0.3-1_all.deb
-Size: 106992
-SHA256: 095c30a9a2023be7051a5e3eaa6c4a1470ee3eb63846cfa359d0fd48d40a9589
-SHA1: 7890b17686ad7c2b99e4044b8bbbb1bdfa281c1e
-MD5sum: e46c0c69aa8e2f072a2ce7ec0fb69e1e
+Filename: pool/main/m/mopidy/mopidy_4.0.4-1_all.deb
+Size: 107384
+SHA256: 10ccc5d4e0e1721756293ddd1c837d61d1472fb2bda0a634a18e346180718452
+SHA1: 5fdcf6eb4ca3bc1582e10e87bc92a5cbf85f8710
+MD5sum: 980b9f08636da6a4a5299d5b1cc93ca2
 Description: extensible music server
  Mopidy is a music server. It runs in the background, or in a terminal, and
  plays audio through the sound hardware of the machine it runs on. Out of the
