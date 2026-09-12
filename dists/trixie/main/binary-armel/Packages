@@ -177,32 +177,29 @@ Description: Mopidy extension for controlling playback through MPRIS
  desktop environment or a media key can control playback.
 
 Package: mopidy-podcast
-Version: 3.0.1-1
+Version: 4.0.0-1
 Architecture: all
-Maintainer: Stein Magnus Jodal <jodal@debian.org>
-Installed-Size: 166
-Depends: mopidy (>= 3.0.0), python3-cachetools, python3-pkg-resources, python3-pykka (>= 2.0.1), python3-uritools, python3:any, libjs-sphinxdoc (>= 1.0)
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 132
+Depends: mopidy (>= 4.0.0), python3-cachetools, python3-pykka (>= 4.1), python3-uritools, python3:any, libjs-sphinxdoc (>= 8.1)
 Breaks: mopidy-podcast-gpodder (<< 2.0)
-Built-Using: sphinx (= 1.8.4-1)
+Built-Using: sphinx (= 8.1.3-5)
 Homepage: https://github.com/tkem/mopidy-podcast
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy-podcast/mopidy-podcast_3.0.1-1_all.deb
-Size: 33240
-SHA256: f350422a6f0a742432af3019a0ee6a9b75e40c622557397116049db15191ef28
-SHA1: c0ef9d2614d27428b45b94c835c34bddc7e4a1f3
-MD5sum: ebc7e0db1dbd11e2c5936dbd4556f3d5
+Filename: pool/main/m/mopidy-podcast/mopidy-podcast_4.0.0-1_all.deb
+Size: 22548
+SHA256: 808499ea6ac981b32eebe1d278c7622a5e9181f671095cb97de70c44bba167b7
+SHA1: 843edc5382c4311ab402451ea3314c44073b7ae7
+MD5sum: 018730a21a44b27a8fd9998e41cdf9bc
 Description: Mopidy extension for searching and browsing podcasts
- Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
- and more. You can edit the playlist from any phone, tablet, or computer using
- a variety of MPD and web clients.
+ Mopidy is a music server. It plays audio files, playlists, and internet radio
+ streams, and extensions add more music sources and frontends.
  .
- This package provides a Mopidy extension that lets you browse podcasts
- distributed as RSS feeds and play individual episodes in a variety of audio
- formats. Podcasts are mapped to albums, while podcast episodes are shown as
- tracks in Mopidy, with metadata converted to Mopidy's native data model where
- applicable. OPML 2.0 subscription lists and directories are also supported for
- multi-level browsing.
+ This extension browses podcasts that are distributed as RSS feeds, and plays
+ the episodes. It shows a podcast as an album and an episode as a track. It
+ also reads OPML subscription lists and directories, for browsing in more than
+ one level.
 
 Package: mopidy-podcast-itunes
 Version: 3.0.1-1
