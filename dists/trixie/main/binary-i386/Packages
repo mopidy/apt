@@ -306,3 +306,24 @@ Description: Mopidy extension for playing music from Spotify
  need a Spotify Premium account. The audio playback needs the
  gst-plugin-spotify GStreamer plugin, which is not part of Debian.
 
+Package: mopidy-tunein
+Version: 2.0.0-2
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 77
+Depends: mopidy (>= 4.0.0), python3-httpx, python3-pykka (>= 4.1), python3:any
+Recommends: gstreamer1.0-libav | gstreamer1.0-plugins-bad
+Homepage: https://github.com/mopidy/mopidy-tunein
+Priority: optional
+Section: sound
+Filename: pool/main/m/mopidy-tunein/mopidy-tunein_2.0.0-2_all.deb
+Size: 18320
+SHA256: 87c1fcd68693e79b2a19c7a665d4017720f2aa137be270a6a774dbc5633dafd3
+SHA1: 805156e2791a470a01238d49ea3cb1aeb7ceae7c
+MD5sum: b00d7e082b14c8ecc136b160e461c777
+Description: Mopidy extension for playing music from TuneIn
+ Mopidy is a music server. It plays audio files, playlists, and internet radio
+ streams, and extensions add more music sources and frontends.
+ .
+ This extension plays the radio stations of the TuneIn directory.
+
