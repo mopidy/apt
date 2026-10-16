@@ -90,7 +90,7 @@ Description: GStreamer Spotify Plugin
  ```
 
 Package: mopidy
-Version: 4.0.4-1
+Version: 4.0.5-1
 Architecture: all
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Installed-Size: 531
@@ -99,11 +99,11 @@ Recommends: gstreamer1.0-alsa, gstreamer1.0-pulseaudio, gstreamer1.0-tools
 Homepage: https://mopidy.com/
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy/mopidy_4.0.4-1_all.deb
-Size: 107384
-SHA256: 10ccc5d4e0e1721756293ddd1c837d61d1472fb2bda0a634a18e346180718452
-SHA1: 5fdcf6eb4ca3bc1582e10e87bc92a5cbf85f8710
-MD5sum: 980b9f08636da6a4a5299d5b1cc93ca2
+Filename: pool/main/m/mopidy/mopidy_4.0.5-1_all.deb
+Size: 107884
+SHA256: 7e6217ea86d2e5d93b483fd20c144e4672caf1bbf33193c999503b8ae6e91bb2
+SHA1: acb625a264af8152711c288cabddb12acfbd1301
+MD5sum: 26dbb109e06416678f2cabdfad7a0198
 Description: extensible music server
  Mopidy is a music server. It runs in the background, or in a terminal, and
  plays audio through the sound hardware of the machine it runs on. Out of the
