@@ -135,19 +135,19 @@ Description: Mopidy extension for playing music from your local music archive
  search the archive and show it by artist and album.
 
 Package: mopidy-mpd
-Version: 4.0.1-1
+Version: 4.1.0-1
 Architecture: all
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 201
-Depends: mopidy (>= 4.0.0), python3-gi, python3-pykka (>= 4.1), python3:any
+Installed-Size: 206
+Depends: mopidy (>= 4.0.2), python3-gi, python3-pykka (>= 4.1), python3-rich, python3:any
 Homepage: https://mopidy.com/
 Priority: optional
 Section: sound
-Filename: pool/main/m/mopidy-mpd/mopidy-mpd_4.0.1-1_all.deb
-Size: 42132
-SHA256: 872645a85d77023a987af56a0c008b3227ccbb6e1045b9fe26278874f351e9cc
-SHA1: 39c7cb335b027c4006f8a00030b0668890bd40ac
-MD5sum: c6fc2d36170019ecbbf865d3dada617b
+Filename: pool/main/m/mopidy-mpd/mopidy-mpd_4.1.0-1_all.deb
+Size: 43276
+SHA256: 52b28d7d2147984620ff13b888ab585faee13382697cb29fcd962a8d94edeb58
+SHA1: f2fa3abc47075e0bfdaa4535384d0381b9342301
+MD5sum: 3e38781f382acad900e7326abbded34c
 Description: Mopidy extension for controlling Mopidy from MPD clients
  Mopidy is a music server. It plays audio files, playlists, and internet radio
  streams, and extensions add more music sources and frontends.
